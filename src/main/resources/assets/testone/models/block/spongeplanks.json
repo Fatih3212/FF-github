@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "testone:blocks/spongeplanks",
+    "up": "testone:blocks/spongeplanks",
+    "north": "testone:blocks/spongeplanks",
+    "east": "testone:blocks/spongeplanks",
+    "south": "testone:blocks/spongeplanks",
+    "west": "testone:blocks/spongeplanks",
+    "particle": "testone:blocks/spongeplanks"
+  }
+}

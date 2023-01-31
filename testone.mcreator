@@ -358,17 +358,6 @@
       "ids": {}
     },
     {
-      "name": "TheBiomeFriutEdiblePlantDestroyedByPlayer",
-      "type": "procedure",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": []
-      }
-    },
-    {
       "name": "TheBiomeBranch",
       "type": "block",
       "sortid": 28,
@@ -431,6 +420,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "SpongePlanks",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -439,6 +436,7 @@
     "en_us": {
       "item.testone.thebiomefriutedible": "The Biome Friut Edible",
       "block.testone.thebiomebranch": "The Biome Branch",
+      "biome.testone.thebiome": "The Biome",
       "item.testone.thebetweendiamondgem": "ThebetweenDiamond",
       "block.testone.yenidunyablok": "Yeni Dünya Bloðu",
       "item.testone.denemebiomeyvesi": "Bio Meyvesi",
@@ -468,7 +466,8 @@
       "item.testone.thebetweenpickaxe": "Thebetween Kazma",
       "block.testone.thebetweendiamondore": "ThebetweenDiamond Ore",
       "block.testone.yenidunyabiotoprak": "Yeni dünya bio toprak",
-      "block.testone.yenidunyameyvesi": "Yeni dünya meyve"
+      "block.testone.yenidunyameyvesi": "Yeni dünya meyve",
+      "block.testone.spongeplanks": "Sponge Planks"
     }
   },
   "workspaceSettings": {
