@@ -24,6 +24,7 @@ import net.minecraft.potion.Effects;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
+import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.FlowerBlock;
@@ -85,7 +86,7 @@ public class ThebiomeplantBlock extends TestoneElements.ModElement {
 	}
 	public static class BlockCustomFlower extends FlowerBlock {
 		public BlockCustomFlower() {
-			super(Effects.SATURATION, 0, Block.Properties.create(Material.PLANTS).doesNotBlockMovement().sound(SoundType.GROUND)
+			super(Effects.SATURATION, 0, Block.Properties.create(Material.PLANTS, MaterialColor.GRASS).doesNotBlockMovement().sound(SoundType.GROUND)
 					.hardnessAndResistance(0f, 0f).lightValue(0));
 			setRegistryName("thebiomeplant");
 		}

@@ -67,7 +67,7 @@ public class ThebetweenDiamondOreBlock extends TestoneElements.ModElement {
 	public void init(FMLCommonSetupEvent event) {
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
 			boolean biomeCriteria = false;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("testone:portalbiome")))
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("testone:deneme")))
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;

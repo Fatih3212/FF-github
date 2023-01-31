@@ -7,7 +7,7 @@
       "value": "CUSTOM:ThebiomeGrass"
     },
     "undergroundBlock": {
-      "value": "Blocks.STONE#0"
+      "value": "CUSTOM:Thebiomedirt"
     },
     "generateLakes": false,
     "treeType": 1,
@@ -36,10 +36,10 @@
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -14329397,
+      "value": -1,
       "falpha": 0.0
     },
-    "treesPerChunk": 3,
+    "treesPerChunk": 2,
     "grassPerChunk": 4,
     "flowersPerChunk": 4,
     "mushroomsPerChunk": 0,

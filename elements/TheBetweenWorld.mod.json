@@ -12,11 +12,11 @@
     "portalSound": {
       "value": "block.portal.ambient"
     },
-    "igniterName": "Yenidunyacakmak",
+    "igniterName": "The Between World-Flint And Steel",
     "igniterTab": {
       "value": "TOOLS"
     },
-    "texture": "yenidunyacakmak",
+    "texture": "thebetweenworldflintandsteel",
     "portalTexture": "portal",
     "enablePortal": true,
     "biomesInDimension": [

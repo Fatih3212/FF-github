@@ -1,0 +1,25 @@
+{
+  "group": "testone",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:flint_and_steel"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "testone:thebetweendiamondgem"
+    },
+    {
+      "item": "minecraft:nether_star"
+    },
+    {
+      "item": "minecraft:sponge"
+    }
+  ],
+  "result": {
+    "item": "testone:thebetweenworld",
+    "count": 1
+  }
+}

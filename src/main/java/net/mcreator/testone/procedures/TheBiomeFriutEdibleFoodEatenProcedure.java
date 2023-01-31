@@ -20,6 +20,6 @@ public class TheBiomeFriutEdibleFoodEatenProcedure extends TestoneElements.ModEl
 		}
 		Entity entity = (Entity) dependencies.get("entity");
 		if (entity instanceof LivingEntity)
-			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.WITHER, (int) 1, (int) 3));
+			((LivingEntity) entity).addPotionEffect(new EffectInstance(Effects.WITHER, (int) 10, (int) 3));
 	}
 }

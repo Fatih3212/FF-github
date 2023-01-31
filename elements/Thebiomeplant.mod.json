@@ -8,7 +8,7 @@
     "plantType": "normal",
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
-    "name": "Thebiomeplant",
+    "name": "The Biome Plant",
     "creativeTab": {
       "value": "CUSTOM:Modesyalari"
     },
@@ -24,7 +24,7 @@
     },
     "dropAmount": 1,
     "isReplaceable": false,
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "GRASS",
     "creativePickItem": {
       "value": ""
     },
