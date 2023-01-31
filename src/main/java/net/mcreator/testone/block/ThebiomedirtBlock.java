@@ -4,9 +4,6 @@ package net.mcreator.testone.block;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.world.storage.loot.LootContext;
-import net.minecraft.world.IBlockReader;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Direction;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
@@ -22,11 +19,11 @@ import java.util.List;
 import java.util.Collections;
 
 @TestoneElements.ModElement.Tag
-public class SpongeBlockBlock extends TestoneElements.ModElement {
-	@ObjectHolder("testone:spongeblock")
+public class ThebiomedirtBlock extends TestoneElements.ModElement {
+	@ObjectHolder("testone:thebiomedirt")
 	public static final Block block = null;
-	public SpongeBlockBlock(TestoneElements instance) {
-		super(instance, 21);
+	public ThebiomedirtBlock(TestoneElements instance) {
+		super(instance, 35);
 	}
 
 	@Override
@@ -37,13 +34,8 @@ public class SpongeBlockBlock extends TestoneElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(3f, 5f).lightValue(15));
-			setRegistryName("spongeblock");
-		}
-
-		@Override
-		public int getFlammability(BlockState state, IBlockReader world, BlockPos pos, Direction face) {
-			return 1;
+			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).lightValue(0));
+			setRegistryName("thebiomedirt");
 		}
 
 		@Override

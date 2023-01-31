@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "testone:blocks/grassblockalt",
+    "up": "testone:blocks/grassblockalt",
+    "north": "testone:blocks/grassblockalt",
+    "east": "testone:blocks/grassblockalt",
+    "south": "testone:blocks/grassblockalt",
+    "west": "testone:blocks/grassblockalt",
+    "particle": "testone:blocks/grassblockalt"
+  }
+}

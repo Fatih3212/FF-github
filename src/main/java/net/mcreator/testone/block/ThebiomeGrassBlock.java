@@ -34,7 +34,7 @@ public class ThebiomeGrassBlock extends TestoneElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).lightValue(0));
+			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).lightValue(0));
 			setRegistryName("thebiomegrass");
 		}
 
@@ -43,7 +43,7 @@ public class ThebiomeGrassBlock extends TestoneElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(ThebiomedirtBlock.block, (int) (1)));
 		}
 	}
 }

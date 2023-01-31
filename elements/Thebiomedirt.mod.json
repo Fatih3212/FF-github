@@ -3,11 +3,11 @@
   "_type": "block",
   "definition": {
     "texture": "grassblockalt",
-    "textureTop": "thebiomegrasstop",
-    "textureLeft": "thebiomegrass",
-    "textureFront": "thebiomegrass",
-    "textureRight": "thebiomegrass",
-    "textureBack": "thebiomegrass",
+    "textureTop": "grassblockalt",
+    "textureLeft": "grassblockalt",
+    "textureFront": "grassblockalt",
+    "textureRight": "grassblockalt",
+    "textureBack": "grassblockalt",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -20,7 +20,7 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Thebiome Grass",
+    "name": "The biome dirt",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
@@ -31,7 +31,7 @@
     "destroyTool": "Not specified",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": "CUSTOM:Thebiomedirt"
+      "value": ""
     },
     "dropAmount": 1,
     "isBeaconBase": false,

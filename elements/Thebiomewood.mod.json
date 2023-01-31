@@ -22,7 +22,7 @@
     "faceShape": "SOLID",
     "name": "Thebiomewood",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 3.0,
     "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
@@ -40,7 +40,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "WOOD"
     },
     "tickRate": 10,
     "tickRandomly": false,
