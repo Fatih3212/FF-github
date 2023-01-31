@@ -1,21 +1,16 @@
 package net.mcreator.testone.procedures;
 
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.world.BlockEvent;
-import net.minecraftforge.common.MinecraftForge;
-
-import net.minecraft.entity.Entity;
-
-import net.mcreator.testone.TestoneElements;
-
 @TestoneElements.ModElement.Tag
 public class TheBiomeFriutEdiblePlantDestroyedByPlayerProcedure extends TestoneElements.ModElement {
+
 	public TheBiomeFriutEdiblePlantDestroyedByPlayerProcedure(TestoneElements instance) {
 		super(instance, 25);
+
 		MinecraftForge.EVENT_BUS.register(this);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
+
 	}
 
 	@SubscribeEvent
@@ -34,4 +29,5 @@ public class TheBiomeFriutEdiblePlantDestroyedByPlayerProcedure extends TestoneE
 		dependencies.put("event", event);
 		this.executeProcedure(dependencies);
 	}
+
 }

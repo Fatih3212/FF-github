@@ -254,9 +254,44 @@
       "ids": {}
     },
     {
+      "name": "TheBiomeFriutEdiblePlantDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "TheBiomeBranch",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
       "name": "ThebiomeGrass",
       "type": "block",
       "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TheBiome",
+      "type": "biome",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Thebiomewood",
+      "type": "block",
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -286,17 +321,6 @@
       "ids": {}
     },
     {
-      "name": "TheBiomeFriutEdiblePlantDestroyedByPlayer",
-      "type": "procedure",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": []
-      }
-    },
-    {
       "name": "Thebiomeplant",
       "type": "plant",
       "sortid": 26,
@@ -305,25 +329,105 @@
       "ids": {}
     },
     {
-      "name": "Thebiomewood",
-      "type": "block",
+      "name": "ThebetweenSword",
+      "type": "tool",
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "ids": {}
     },
     {
-      "name": "TheBiomeBranch",
+      "name": "Yenidunyabiotoprak",
       "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ThebetweenPickaxe",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ThebetweenAxeRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ThebetweenPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ThebetweenShovel",
+      "type": "tool",
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "ids": {}
     },
     {
-      "name": "TheBiome",
-      "type": "biome",
+      "name": "ThebetweenHoe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ThebetweenSwordRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Yenidunyabiocimen",
+      "type": "block",
       "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ThebetweenHoeRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ThebetweenShovelRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Yenidunyabio",
+      "type": "biome",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ThebetweenAxe",
+      "type": "tool",
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -333,9 +437,6 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.testone.thebiomefriutedible": "The Biome Friut Edible",
-      "block.testone.thebiomebranch": "The Biome Branch",
-      "biome.testone.thebiome": "The Biome",
       "item.testone.thebetweendiamondgem": "ThebetweenDiamond",
       "block.testone.biotahta": "Biotahta",
       "item.testone.denemebiomeyvesi": "Bio Meyvesi",
@@ -349,11 +450,8 @@
       "advancements.thebetweendia.descr": "\u0027the between diamond\u0027 elde et",
       "biome.testone.deneme": "Deneme",
       "advancements.thebetweendia.title": "T3 Dünya bir arada",
-      "block.testone.thebiomegrass": "Thebiome Grass",
-      "block.testone.thebiomeplant": "Thebiomeplant",
       "block.testone.denemebioyaprak": "Bio Yaprak",
       "block.testone.denemebioagac": "Bio Kütüðü",
-      "block.testone.thebiomewood": "Thebiomewood",
       "block.testone.thebetweendiamondoreblock": "Block of ThebetweenDiamond",
       "block.testone.denemebiotoprak": "Bio toprak",
       "block.testone.thebetweendiamondore": "ThebetweenDiamond Ore",

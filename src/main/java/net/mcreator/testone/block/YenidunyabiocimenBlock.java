@@ -2,12 +2,12 @@
 package net.mcreator.testone.block;
 
 @TestoneElements.ModElement.Tag
-public class ThebiomeGrassBlock extends TestoneElements.ModElement {
+public class YenidunyabiocimenBlock extends TestoneElements.ModElement {
 
-	@ObjectHolder("testone:thebiomegrass")
+	@ObjectHolder("testone:yenidunyabiocimen")
 	public static final Block block = null;
 
-	public ThebiomeGrassBlock(TestoneElements instance) {
+	public YenidunyabiocimenBlock(TestoneElements instance) {
 		super(instance, 23);
 
 	}
@@ -24,9 +24,9 @@ public class ThebiomeGrassBlock extends TestoneElements.ModElement {
 		public CustomBlock() {
 			super(
 
-					Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(1f, 10f).lightValue(0));
+					Block.Properties.create(Material.ORGANIC).sound(SoundType.GROUND).hardnessAndResistance(1.5f, 10f).lightValue(0));
 
-			setRegistryName("thebiomegrass");
+			setRegistryName("yenidunyabiocimen");
 		}
 
 		@Override
@@ -34,7 +34,7 @@ public class ThebiomeGrassBlock extends TestoneElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 1));
+			return Collections.singletonList(new ItemStack(YenidunyabiotoprakBlock.block, (int) (1)));
 		}
 
 	}

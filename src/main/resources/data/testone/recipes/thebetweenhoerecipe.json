@@ -1,0 +1,27 @@
+{
+  "group": "testone",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "testone:thebetweendiamondgem"
+    },
+    "1": {
+      "item": "testone:thebetweendiamondgem"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "testone:thebetweenhoe",
+    "count": 1
+  }
+}
