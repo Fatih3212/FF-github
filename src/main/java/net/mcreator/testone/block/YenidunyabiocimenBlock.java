@@ -1,15 +1,29 @@
 
 package net.mcreator.testone.block;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.world.storage.loot.LootContext;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.BlockItem;
+import net.minecraft.block.material.Material;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.BlockState;
+import net.minecraft.block.Block;
+
+import net.mcreator.testone.TestoneElements;
+
+import java.util.List;
+import java.util.Collections;
+
 @TestoneElements.ModElement.Tag
 public class YenidunyabiocimenBlock extends TestoneElements.ModElement {
-
 	@ObjectHolder("testone:yenidunyabiocimen")
 	public static final Block block = null;
-
 	public YenidunyabiocimenBlock(TestoneElements instance) {
 		super(instance, 23);
-
 	}
 
 	@Override
@@ -18,14 +32,9 @@ public class YenidunyabiocimenBlock extends TestoneElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
-
 	public static class CustomBlock extends Block {
-
 		public CustomBlock() {
-			super(
-
-					Block.Properties.create(Material.ORGANIC).sound(SoundType.GROUND).hardnessAndResistance(1.5f, 10f).lightValue(0));
-
+			super(Block.Properties.create(Material.ORGANIC).sound(SoundType.GROUND).hardnessAndResistance(1.5f, 10f).lightValue(0));
 			setRegistryName("yenidunyabiocimen");
 		}
 
@@ -36,7 +45,5 @@ public class YenidunyabiocimenBlock extends TestoneElements.ModElement {
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(YenidunyabiotoprakBlock.block, (int) (1)));
 		}
-
 	}
-
 }

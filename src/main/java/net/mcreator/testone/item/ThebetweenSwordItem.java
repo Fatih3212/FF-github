@@ -1,12 +1,20 @@
 
 package net.mcreator.testone.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.SwordItem;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+
+import net.mcreator.testone.TestoneElements;
+
 @TestoneElements.ModElement.Tag
 public class ThebetweenSwordItem extends TestoneElements.ModElement {
-
 	@ObjectHolder("testone:thebetweensword")
 	public static final Item block = null;
-
 	public ThebetweenSwordItem(TestoneElements instance) {
 		super(instance, 27);
 	}
@@ -38,8 +46,6 @@ public class ThebetweenSwordItem extends TestoneElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 3, -3f, new Item.Properties().group(ItemGroup.COMBAT)) {
-
 		}.setRegistryName("thebetweensword"));
 	}
-
 }
