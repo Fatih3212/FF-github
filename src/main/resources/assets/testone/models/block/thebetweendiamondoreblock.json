@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "testone:blocks/thebetweendiamond_ore_block",
+    "particle": "testone:blocks/thebetweendiamond_ore_block"
+  }
+}
