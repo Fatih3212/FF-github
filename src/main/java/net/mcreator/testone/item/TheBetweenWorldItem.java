@@ -1,11 +1,22 @@
 
 package net.mcreator.testone.item;
 
-public class TheBetweenWorldItem extends Item {
+import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.world.World;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.ActionResultType;
+import net.minecraft.item.ItemUseContext;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.entity.player.PlayerEntity;
+
+import net.mcreator.testone.world.dimension.TheBetweenWorldDimension;
+
+public class TheBetweenWorldItem extends Item {
 	@ObjectHolder("testone:thebetweenworld")
 	public static final Item block = null;
-
 	public TheBetweenWorldItem() {
 		super(new Item.Properties().group(ItemGroup.TOOLS).maxDamage(64));
 	}
@@ -21,7 +32,6 @@ public class TheBetweenWorldItem extends Item {
 		} else {
 			if (world.isAirBlock(pos))
 				TheBetweenWorldDimension.portal.portalSpawn(world, pos);
-
 			itemstack.damageItem(1, entity, c -> c.sendBreakAnimation(context.getHand()));
 			return ActionResultType.SUCCESS;
 		}
