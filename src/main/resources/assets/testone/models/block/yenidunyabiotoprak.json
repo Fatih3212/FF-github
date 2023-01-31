@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "testone:blocks/yenidunyabiotoprak",
+    "up": "testone:blocks/yenidunyabiotoprak",
+    "north": "testone:blocks/yenidunyabiotoprak",
+    "east": "testone:blocks/yenidunyabiotoprak",
+    "south": "testone:blocks/yenidunyabiotoprak",
+    "west": "testone:blocks/yenidunyabiotoprak",
+    "particle": "testone:blocks/yenidunyabiotoprak"
+  }
+}
