@@ -80,7 +80,11 @@
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Deneme"
+      }
+    ],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"

@@ -1,0 +1,31 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "testone:thebetweendiamondgem"
+    },
+    "title": {
+      "translate": "advancements.thebetweendia.title"
+    },
+    "description": {
+      "translate": "advancements.thebetweendia.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "thebetweendia": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "testone:thebetweendiamondgem"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}
