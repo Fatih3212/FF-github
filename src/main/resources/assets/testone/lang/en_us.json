@@ -1,15 +1,13 @@
 {
+  "block.testone.denemebiotoprak": "Bio toprak",
   "item.testone.thebetweendiamondgem": "ThebetweenDiamond",
   "item.testone.denemebiomeyvesi": "Bio Meyvesi",
+  "block.testone.denemebiomeyve": "bio meyve",
   "block.testone.biotahta": "Biotahta",
   "block.testone.denemebioyaprak": "Bio Yaprak",
-  "block.testone.denemebiocimen": "bio çimeni",
-  "block.testone.denemebioagac": "Bio Kütüğü",
-  "block.testone.thebetweendiamondoreblock": "Block of ThebetweenDiamond",
-  "block.testone.denemebiotoprak": "Bio toprak",
-  "block.testone.denemebiomeyve": "bio meyve",
-  "advancements.thebetweendia.descr": "\u0027the between diamond\u0027 elde et",
   "biome.testone.deneme": "Deneme",
   "block.testone.thebetweendiamondore": "ThebetweenDiamond Ore",
-  "advancements.thebetweendia.title": "T3 Dünya bir arada"
+  "block.testone.denemebiocimen": "bio çimeni",
+  "block.testone.denemebioagac": "Bio Kütüðü",
+  "block.testone.thebetweendiamondoreblock": "Block of ThebetweenDiamond"
 }
