@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "thebetweendiamond_gem",
+    "texture": "thebetweeendiamond",
     "customModelName": "Normal",
     "name": "ThebetweenDiamond",
     "creativeTab": {
