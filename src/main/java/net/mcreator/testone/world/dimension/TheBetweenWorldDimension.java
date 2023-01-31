@@ -718,7 +718,7 @@ public class TheBetweenWorldDimension extends TestoneElements.ModElement {
 		@Override
 		@OnlyIn(Dist.CLIENT)
 		public Vec3d getFogColor(float cangle, float ticks) {
-			return new Vec3d(0, 0.4, 0.4);
+			return new Vec3d(0, 0.6, 0.6);
 		}
 
 		@Override
