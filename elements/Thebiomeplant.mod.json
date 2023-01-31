@@ -24,7 +24,7 @@
     },
     "dropAmount": 1,
     "isReplaceable": false,
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "GRASS",
     "creativePickItem": {
       "value": ""
     },
