@@ -40,7 +40,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "LEAVES"
     },
     "tickRate": 10,
     "tickRandomly": false,
