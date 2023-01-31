@@ -1,0 +1,116 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Denemebiocimen",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Denemebioagac",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Denemebioyaprak",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Denemebiomeyvesi",
+      "type": "food",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Deneme",
+      "type": "biome",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Denemebiomeyve",
+      "type": "plant",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Biotahta",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BiotahtaR",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CubukR",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Denemebiotoprak",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.testone.denemebiotoprak": "Bio toprak",
+      "item.testone.denemebiomeyvesi": "Bio Meyvesi",
+      "block.testone.denemebiomeyve": "bio meyve",
+      "block.testone.biotahta": "Biotahta",
+      "block.testone.denemebioyaprak": "Bio Yaprak",
+      "biome.testone.deneme": "Deneme",
+      "block.testone.denemebiocimen": "bio çimeni",
+      "block.testone.denemebioagac": "Bio Kütüðü"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "testone",
+    "modName": "test_one",
+    "version": "1.0.0",
+    "author": "Musel, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.14.4",
+    "modElementsPackage": "net.mcreator.testone",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000214217
+}

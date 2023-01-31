@@ -1,0 +1,13 @@
+{
+  "group": "testone",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "testone:denemebioagac"
+    }
+  ],
+  "result": {
+    "item": "testone:biotahta",
+    "count": 4
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "testone:blocks/denemebiomeyvesi2",
+    "particle": "testone:blocks/denemebiomeyvesi2"
+  }
+}

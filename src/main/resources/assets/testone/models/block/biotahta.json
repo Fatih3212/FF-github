@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "testone:blocks/biotahta",
+    "up": "testone:blocks/biotahta",
+    "north": "testone:blocks/biotahta",
+    "east": "testone:blocks/biotahta",
+    "south": "testone:blocks/biotahta",
+    "west": "testone:blocks/biotahta",
+    "particle": "testone:blocks/biotahta"
+  }
+}

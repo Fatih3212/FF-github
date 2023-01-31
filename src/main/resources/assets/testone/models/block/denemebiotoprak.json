@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "testone:blocks/denemebiotoprak2",
+    "up": "testone:blocks/denemebiotoprak2",
+    "north": "testone:blocks/denemebiotoprak2",
+    "east": "testone:blocks/denemebiotoprak2",
+    "south": "testone:blocks/denemebiotoprak2",
+    "west": "testone:blocks/denemebiotoprak2",
+    "particle": "testone:blocks/denemebiotoprak2"
+  }
+}
