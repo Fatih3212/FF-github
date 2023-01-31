@@ -4,7 +4,7 @@
   "definition": {
     "recipeType": "Crafting",
     "xpReward": 0.0,
-    "recipeRetstackSize": 4,
+    "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": true,
     "recipeSlots": [
@@ -21,7 +21,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Biotahta"
+        "value": "CUSTOM:Thebiomewood"
       },
       {
         "value": ""
@@ -30,16 +30,16 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Biotahta"
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "Items.STICK"
+      "value": "CUSTOM:TheBiomePlanks"
     },
-    "name": "cubukr",
+    "name": "thebiomeplanksrecipe",
     "namespace": "mod"
   }
 }

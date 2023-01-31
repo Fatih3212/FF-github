@@ -1,0 +1,13 @@
+{
+  "group": "testone",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "testone:spongeblock"
+    }
+  ],
+  "result": {
+    "item": "testone:spongeplanks",
+    "count": 1
+  }
+}

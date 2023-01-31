@@ -19,6 +19,7 @@ import net.minecraft.world.biome.Biome;
 import net.minecraft.world.IWorld;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.potion.Effects;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
@@ -29,6 +30,7 @@ import net.minecraft.block.FlowerBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.testone.world.dimension.TheBetweenWorldDimension;
 import net.mcreator.testone.itemgroup.ModesyalariItemGroup;
 import net.mcreator.testone.item.YenidunyameyveItem;
 import net.mcreator.testone.TestoneElements;
@@ -64,7 +66,7 @@ public class YenidunyameyvesiBlock extends TestoneElements.ModElement {
 			public boolean place(IWorld world, ChunkGenerator generator, Random random, BlockPos pos, NoFeatureConfig config) {
 				DimensionType dimensionType = world.getDimension().getType();
 				boolean dimensionCriteria = false;
-				if (dimensionType == DimensionType.OVERWORLD)
+				if (dimensionType == TheBetweenWorldDimension.type)
 					dimensionCriteria = true;
 				if (!dimensionCriteria)
 					return false;
@@ -72,6 +74,11 @@ public class YenidunyameyvesiBlock extends TestoneElements.ModElement {
 			}
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
+			boolean biomeCriteria = false;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("testone:yenidunyabio")))
+				biomeCriteria = true;
+			if (!biomeCriteria)
+				continue;
 			biome.addFeature(GenerationStage.Decoration.VEGETAL_DECORATION,
 					Biome.createDecoratedFeature(feature, IFeatureConfig.NO_FEATURE_CONFIG, Placement.COUNT_HEIGHTMAP_32, new FrequencyConfig(20)));
 		}

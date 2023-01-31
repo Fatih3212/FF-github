@@ -32,8 +32,12 @@
     "fireSpreadSpeed": 0,
     "frequencyOnChunks": 20,
     "spawnWorldTypes": [
-      "Surface"
+      "CUSTOM:TheBetweenWorld"
     ],
-    "restrictionBiomes": []
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:Yenidunyabio"
+      }
+    ]
   }
 }

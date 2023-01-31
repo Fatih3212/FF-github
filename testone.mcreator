@@ -425,6 +425,46 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "SpongeWoodPlanksRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlanksStickSponge",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TheBiomePlanks",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TheBiomePlanksRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TheBiomeSticks",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -451,6 +491,7 @@
       "advancements.thebetweendia.descr": "\u0027the between diamond\u0027 elde et",
       "advancements.thebetweendia.title": "T3 Dünya bir arada",
       "item.testone.thebetweenaxe": "Thebetween Axe",
+      "block.testone.thebiomeplanks": "The Biome Planks",
       "item.testone.thebetweensword": "Thebetween kýlýç",
       "block.testone.thebiomegrass": "Thebiome Grass",
       "block.testone.thebiomeplant": "Thebiomeplant",

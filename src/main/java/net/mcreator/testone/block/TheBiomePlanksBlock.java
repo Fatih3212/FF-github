@@ -19,11 +19,11 @@ import java.util.List;
 import java.util.Collections;
 
 @TestoneElements.ModElement.Tag
-public class SpongePlanksBlock extends TestoneElements.ModElement {
-	@ObjectHolder("testone:spongeplanks")
+public class TheBiomePlanksBlock extends TestoneElements.ModElement {
+	@ObjectHolder("testone:thebiomeplanks")
 	public static final Block block = null;
-	public SpongePlanksBlock(TestoneElements instance) {
-		super(instance, 35);
+	public TheBiomePlanksBlock(TestoneElements instance) {
+		super(instance, 40);
 	}
 
 	@Override
@@ -34,8 +34,8 @@ public class SpongePlanksBlock extends TestoneElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.WOOD).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).lightValue(0));
-			setRegistryName("spongeplanks");
+			super(Block.Properties.create(Material.WOOD).sound(SoundType.GROUND).hardnessAndResistance(3f, 10f).lightValue(0));
+			setRegistryName("thebiomeplanks");
 		}
 
 		@Override

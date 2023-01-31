@@ -3,14 +3,14 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "testone:biotahta"
+      "item": "testone:thebiomeplanks"
     },
     {
-      "item": "testone:biotahta"
+      "item": "testone:thebiomeplanks"
     }
   ],
   "result": {
     "item": "minecraft:stick",
-    "count": 4
+    "count": 1
   }
 }

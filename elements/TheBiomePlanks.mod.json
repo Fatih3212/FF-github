@@ -2,12 +2,12 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "thebiomebranch",
-    "textureTop": "thebiomebranch",
-    "textureLeft": "thebiomebranch",
-    "textureFront": "thebiomebranch",
-    "textureRight": "thebiomebranch",
-    "textureBack": "thebiomebranch",
+    "texture": "thebiomeplanks",
+    "textureTop": "thebiomeplanks",
+    "textureLeft": "thebiomeplanks",
+    "textureFront": "thebiomeplanks",
+    "textureRight": "thebiomeplanks",
+    "textureBack": "thebiomeplanks",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -20,9 +20,9 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "The Biome Branch",
+    "name": "The Biome Planks",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 3.0,
     "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
@@ -40,7 +40,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "LEAVES"
+      "value": "WOOD"
     },
     "tickRate": 10,
     "tickRandomly": false,
