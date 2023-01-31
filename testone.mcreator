@@ -154,14 +154,6 @@
       "ids": {}
     },
     {
-      "name": "Yenidunyacakmak",
-      "type": "tool",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "YenidunyacakmakRightClickedOnBlock",
       "type": "procedure",
       "sortid": 18,
@@ -260,30 +252,111 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "ThebiomeGrass",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TheBiomeFriutEdibleFoodEaten",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TheBiomeFriutEdible",
+      "type": "food",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TheBiomeFriutEdiblePlantDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Thebiomeplant",
+      "type": "plant",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Thebiomewood",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TheBiomeBranch",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TheBiome",
+      "type": "biome",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.testone.thebiomefriutedible": "The Biome Friut Edible",
+      "block.testone.thebiomebranch": "The Biome Branch",
+      "biome.testone.thebiome": "The Biome",
       "item.testone.thebetweendiamondgem": "ThebetweenDiamond",
       "block.testone.biotahta": "Biotahta",
       "item.testone.denemebiomeyvesi": "Bio Meyvesi",
       "block.testone.yenidunyablok": "Yeni Dünya Bloðu",
-      "block.testone.denemebioyaprak": "Bio Yaprak",
       "block.testone.denemebiocimen": "bio çimeni",
       "block.testone.yenidunyayaprak": "Yeni dünya yaprak",
-      "block.testone.denemebioagac": "Bio Kütüðü",
       "item.testone.thebetweenworld": "Yenidunyacakmak",
       "block.testone.spongeblock": "Sponge Block",
-      "block.testone.thebetweendiamondoreblock": "Block of ThebetweenDiamond",
-      "block.testone.denemebiotoprak": "Bio toprak",
       "item.testone.yenidunyameyve": "Yenidunyameyve",
       "block.testone.denemebiomeyve": "bio meyve",
       "advancements.thebetweendia.descr": "\u0027the between diamond\u0027 elde et",
       "biome.testone.deneme": "Deneme",
-      "block.testone.thebetweendiamondore": "ThebetweenDiamond Ore",
       "advancements.thebetweendia.title": "T3 Dünya bir arada",
+      "block.testone.thebiomegrass": "Thebiome Grass",
+      "block.testone.thebiomeplant": "Thebiomeplant",
+      "block.testone.denemebioyaprak": "Bio Yaprak",
+      "block.testone.denemebioagac": "Bio Kütüðü",
+      "block.testone.thebiomewood": "Thebiomewood",
+      "block.testone.thebetweendiamondoreblock": "Block of ThebetweenDiamond",
+      "block.testone.denemebiotoprak": "Bio toprak",
+      "block.testone.thebetweendiamondore": "ThebetweenDiamond Ore",
       "block.testone.yenidunyameyvesi": "Yeni dünya meyve"
     }
   },

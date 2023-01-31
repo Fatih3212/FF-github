@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "testone:blocks/thebiomefriut",
+    "particle": "testone:blocks/thebiomefriut"
+  }
+}
