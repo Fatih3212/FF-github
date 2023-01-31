@@ -198,6 +198,14 @@
       "ids": {}
     },
     {
+      "name": "Yenidunyameyve",
+      "type": "food",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
       "name": "YenidunyameyveFoodEaten",
       "type": "procedure",
       "sortid": 21,
@@ -214,9 +222,33 @@
       }
     },
     {
-      "name": "Yenidunyameyve",
-      "type": "food",
+      "name": "YenidunyablokPortalTriggerUsed",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpongeBlock",
+      "type": "block",
       "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "TheBetweenWorld",
+      "type": "dimension",
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -235,13 +267,11 @@
       "block.testone.denemebioagac": "Bio Kütüðü",
       "block.testone.thebetweendiamondoreblock": "Block of ThebetweenDiamond",
       "block.testone.denemebiotoprak": "Bio toprak",
-      "item.testone.yenidunyameyve": "Yenidunyameyve",
       "block.testone.denemebiomeyve": "bio meyve",
       "advancements.thebetweendia.descr": "\u0027the between diamond\u0027 elde et",
       "biome.testone.deneme": "Deneme",
       "block.testone.thebetweendiamondore": "ThebetweenDiamond Ore",
-      "advancements.thebetweendia.title": "T3 Dünya bir arada",
-      "block.testone.yenidunyameyvesi": "Yeni dünya meyve"
+      "advancements.thebetweendia.title": "T3 Dünya bir arada"
     }
   },
   "workspaceSettings": {
