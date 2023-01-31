@@ -1,0 +1,11 @@
+{
+  "group": "testone",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "ingredient": {
+    "item": "testone:thebetweendiamondore"
+  },
+  "result": {
+    "item": "testone:thebetweendiamondgem"
+  }
+}
