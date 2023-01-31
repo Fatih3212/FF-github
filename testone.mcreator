@@ -141,7 +141,7 @@
       "name": "Yenidunyablok",
       "type": "block",
       "sortid": 17,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {}
     }
