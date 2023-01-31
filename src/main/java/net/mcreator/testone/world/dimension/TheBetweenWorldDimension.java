@@ -127,7 +127,7 @@ public class TheBetweenWorldDimension extends TestoneElements.ModElement {
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("testone:portalbiome")),
+		dimensionBiomes = new Biome[]{ForgeRegistries.BIOMES.getValue(new ResourceLocation("testone:deneme")),
 				ForgeRegistries.BIOMES.getValue(new ResourceLocation("testone:yenidunyabio")),
 				ForgeRegistries.BIOMES.getValue(new ResourceLocation("testone:thebiome")),};
 	}

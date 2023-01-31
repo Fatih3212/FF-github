@@ -32,6 +32,7 @@ import net.minecraft.block.Block;
 
 import net.mcreator.testone.block.ThebiomewoodBlock;
 import net.mcreator.testone.block.ThebiomeplantBlock;
+import net.mcreator.testone.block.ThebiomedirtBlock;
 import net.mcreator.testone.block.ThebiomeGrassBlock;
 import net.mcreator.testone.block.TheBiomeBranchBlock;
 import net.mcreator.testone.TestoneElements;
@@ -62,7 +63,7 @@ public class TheBiomeBiome extends TestoneElements.ModElement {
 			super(new Biome.Builder().downfall(0.5f).depth(0.1f).scale(0.2f).temperature(0.5f).precipitation(Biome.RainType.RAIN)
 					.category(Biome.Category.NONE).waterColor(4159204).waterFogColor(329011)
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(ThebiomeGrassBlock.block.getDefaultState(),
-							Blocks.STONE.getDefaultState(), Blocks.STONE.getDefaultState())));
+							ThebiomedirtBlock.block.getDefaultState(), ThebiomedirtBlock.block.getDefaultState())));
 			setRegistryName("thebiome");
 			DefaultBiomeFeatures.addCarvers(this);
 			DefaultBiomeFeatures.addStructures(this);
@@ -73,7 +74,7 @@ public class TheBiomeBiome extends TestoneElements.ModElement {
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Biome.createDecoratedFeature(Feature.GRASS,
 					new GrassFeatureConfig(Blocks.GRASS.getDefaultState()), Placement.COUNT_HEIGHTMAP_DOUBLE, new FrequencyConfig(4)));
 			addFeature(GenerationStage.Decoration.VEGETAL_DECORATION, Biome.createDecoratedFeature(new CustomTreeFeature(),
-					IFeatureConfig.NO_FEATURE_CONFIG, Placement.COUNT_EXTRA_HEIGHTMAP, new AtSurfaceWithExtraConfig(3, 0.1F, 1)));
+					IFeatureConfig.NO_FEATURE_CONFIG, Placement.COUNT_EXTRA_HEIGHTMAP, new AtSurfaceWithExtraConfig(2, 0.1F, 1)));
 		}
 	}
 
@@ -113,13 +114,14 @@ public class TheBiomeBiome extends TestoneElements.ModElement {
 				} else {
 					Block ground = world.getBlockState(position.add(0, -1, 0)).getBlock();
 					Block ground2 = world.getBlockState(position.add(0, -2, 0)).getBlock();
-					if (!((ground == ThebiomeGrassBlock.block.getDefaultState().getBlock() || ground == Blocks.STONE.getDefaultState().getBlock())
+					if (!((ground == ThebiomeGrassBlock.block.getDefaultState().getBlock()
+							|| ground == ThebiomedirtBlock.block.getDefaultState().getBlock())
 							&& (ground2 == ThebiomeGrassBlock.block.getDefaultState().getBlock()
-									|| ground2 == Blocks.STONE.getDefaultState().getBlock())))
+									|| ground2 == ThebiomedirtBlock.block.getDefaultState().getBlock())))
 						return false;
 					BlockState state = world.getBlockState(position.down());
 					if (position.getY() < world.getHeight() - height - 1) {
-						setTreeBlockState(changedBlocks, world, position.down(), Blocks.STONE.getDefaultState(), bbox);
+						setTreeBlockState(changedBlocks, world, position.down(), ThebiomedirtBlock.block.getDefaultState(), bbox);
 						for (int genh = position.getY() - 3 + height; genh <= position.getY() + height; genh++) {
 							int i4 = genh - (position.getY() + height);
 							int j1 = (int) (1 - i4 * 0.5);
@@ -180,7 +182,8 @@ public class TheBiomeBiome extends TestoneElements.ModElement {
 		private boolean canGrowInto(Block blockType) {
 			return blockType.getDefaultState().getMaterial() == Material.AIR || blockType == ThebiomewoodBlock.block.getDefaultState().getBlock()
 					|| blockType == TheBiomeBranchBlock.block.getDefaultState().getBlock()
-					|| blockType == ThebiomeGrassBlock.block.getDefaultState().getBlock() || blockType == Blocks.STONE.getDefaultState().getBlock();
+					|| blockType == ThebiomeGrassBlock.block.getDefaultState().getBlock()
+					|| blockType == ThebiomedirtBlock.block.getDefaultState().getBlock();
 		}
 
 		private boolean isReplaceable(IWorld world, BlockPos pos) {
