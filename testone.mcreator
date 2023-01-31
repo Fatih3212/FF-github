@@ -209,7 +209,7 @@
       "name": "YenidunyameyveFoodEaten",
       "type": "procedure",
       "sortid": 21,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "metadata": {
@@ -225,7 +225,7 @@
       "name": "YenidunyablokPortalTriggerUsed",
       "type": "procedure",
       "sortid": 20,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "metadata": {
@@ -274,7 +274,8 @@
       "advancements.thebetweendia.descr": "\u0027the between diamond\u0027 elde et",
       "biome.testone.deneme": "Deneme",
       "block.testone.thebetweendiamondore": "ThebetweenDiamond Ore",
-      "advancements.thebetweendia.title": "T3 Dünya bir arada"
+      "advancements.thebetweendia.title": "T3 Dünya bir arada",
+      "block.testone.yenidunyameyvesi": "Yeni dünya meyve"
     }
   },
   "workspaceSettings": {
