@@ -22,6 +22,12 @@
     "biomesInDimension": [
       {
         "value": "CUSTOM:Deneme"
+      },
+      {
+        "value": "CUSTOM:Yenidunyabio"
+      },
+      {
+        "value": "CUSTOM:TheBiome"
       }
     ],
     "worldGenType": "Normal world gen",
