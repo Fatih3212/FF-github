@@ -17,7 +17,7 @@
       "value": "TOOLS"
     },
     "texture": "yenidunyacakmak",
-    "portalTexture": "thebetweenworldportalblock",
+    "portalTexture": "portal",
     "enablePortal": true,
     "biomesInDimension": [
       {
@@ -50,7 +50,7 @@
     "canRespawnHere": false,
     "hasFog": true,
     "hasWeather": false,
-    "isDark": true,
+    "isDark": false,
     "doesWaterVaporize": false,
     "sleepResult": "BED_EXPLODES",
     "hasSkyLight": false,

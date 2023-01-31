@@ -1,17 +1,9 @@
 
 package net.mcreator.testone.itemgroup;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-
-import net.mcreator.testone.item.ThebetweenDiamondGemItem;
-import net.mcreator.testone.TestoneElements;
-
 @TestoneElements.ModElement.Tag
 public class ModesyalariItemGroup extends TestoneElements.ModElement {
+
 	public ModesyalariItemGroup(TestoneElements instance) {
 		super(instance, 36);
 	}
@@ -31,5 +23,7 @@ public class ModesyalariItemGroup extends TestoneElements.ModElement {
 			}
 		}.setBackgroundImageName("item_search.png");
 	}
+
 	public static ItemGroup tab;
+
 }

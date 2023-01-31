@@ -760,6 +760,15 @@ public class TheBetweenWorldDimension extends TestoneElements.ModElement {
 		}
 
 		@Override
+		protected void generateLightBrightnessTable() {
+			float f = 0.5f;
+			for (int i = 0; i <= 15; ++i) {
+				float f1 = 1 - (float) i / 15f;
+				this.lightBrightnessTable[i] = (1 - f1) / (f1 * 3 + 1) * (1 - f) + f;
+			}
+		}
+
+		@Override
 		public boolean doesWaterVaporize() {
 			return false;
 		}

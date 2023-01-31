@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "testone:blocks/thebetweenworldportalblock",
-    "portal": "testone:blocks/thebetweenworldportalblock"
+    "particle": "testone:blocks/portal",
+    "portal": "testone:blocks/portal"
   },
   "elements": [
     {
