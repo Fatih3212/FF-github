@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "testone:block/thebetweenworld_portal_ew"
+    },
+    "axis=x": {
+      "model": "testone:block/thebetweenworld_portal_ns"
+    }
+  }
+}
