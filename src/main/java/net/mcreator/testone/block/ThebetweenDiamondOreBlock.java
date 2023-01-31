@@ -49,7 +49,7 @@ public class ThebetweenDiamondOreBlock extends TestoneElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(50f, 10f).lightValue(0).harvestLevel(2)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(50f, 10f).lightValue(0).harvestLevel(4)
 					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("thebetweendiamondore");
 		}
