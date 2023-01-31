@@ -5,7 +5,7 @@
     "renderType": 0,
     "texture": "denemebiomeyvesi",
     "customModelName": "Normal",
-    "name": "Bio Meyvesi",
+    "name": "Portal Biome Meyvesi",
     "creativeTab": {
       "value": "CUSTOM:Modesyalari"
     },
