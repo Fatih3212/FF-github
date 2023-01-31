@@ -2,7 +2,7 @@
   "_fv": 6,
   "_type": "achievement",
   "definition": {
-    "achievementName": "3 Dünya bir arada",
+    "achievementName": "T3 Dünya bir arada",
     "achievementDescription": "'the between diamond' elde et",
     "achievementIcon": {
       "value": "CUSTOM:ThebetweenDiamondGem"
@@ -10,7 +10,7 @@
     "background": "Default",
     "disableDisplay": false,
     "showPopup": true,
-    "announceToChat": false,
+    "announceToChat": true,
     "hideIfNotCompleted": false,
     "rewardLoot": [],
     "rewardRecipes": [],
