@@ -141,7 +141,7 @@
       "name": "Yenidunyablok",
       "type": "block",
       "sortid": 17,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {}
     }
@@ -151,8 +151,8 @@
   "language_map": {
     "en_us": {
       "item.testone.thebetweendiamondgem": "ThebetweenDiamond",
-      "block.testone.biotahta": "Biotahta",
       "item.testone.denemebiomeyvesi": "Bio Meyvesi",
+      "block.testone.biotahta": "Biotahta",
       "block.testone.denemebioyaprak": "Bio Yaprak",
       "block.testone.denemebiocimen": "bio çimeni",
       "block.testone.denemebioagac": "Bio Kütüðü",
