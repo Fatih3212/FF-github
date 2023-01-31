@@ -61,7 +61,7 @@ public class YenidunyabioBiome extends TestoneElements.ModElement {
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
 			super(new Biome.Builder().downfall(0.5f).depth(0.1f).scale(0.2f).temperature(0.5f).precipitation(Biome.RainType.RAIN)
-					.category(Biome.Category.NONE).waterColor(4159204).waterFogColor(329011)
+					.category(Biome.Category.NONE).waterColor(4159204).waterFogColor(329011).parent("testone:yenidunyabio")
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(YenidunyabiocimenBlock.block.getDefaultState(),
 							YenidunyabiotoprakBlock.block.getDefaultState(), YenidunyabiotoprakBlock.block.getDefaultState())));
 			setRegistryName("yenidunyabio");

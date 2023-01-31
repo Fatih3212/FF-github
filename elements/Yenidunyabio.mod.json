@@ -58,7 +58,7 @@
     "biomeType": "WARM",
     "biomeCategory": "NONE",
     "parent": {
-      "value": "No parent"
+      "value": "CUSTOM:Yenidunyabio"
     },
     "biomeDictionaryTypes": [],
     "spawnList": []
