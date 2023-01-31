@@ -358,17 +358,6 @@
       "ids": {}
     },
     {
-      "name": "TheBiomeFriutEdiblePlantDestroyedByPlayer",
-      "type": "procedure",
-      "sortid": 25,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": []
-      }
-    },
-    {
       "name": "TheBiomeBranch",
       "type": "block",
       "sortid": 28,
