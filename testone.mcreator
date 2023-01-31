@@ -465,6 +465,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Piramit",
+      "type": "structure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -476,9 +484,9 @@
       "block.testone.thebiomebranch": "The Biome Branch",
       "biome.testone.thebiome": "The Biome",
       "item.testone.thebetweendiamondgem": "ThebetweenDiamond",
-      "block.testone.yenidunyablok": "Between Topraðý",
-      "item.testone.denemebiomeyvesi": "Portal Biome Meyvesi",
       "block.testone.biotahta": "Biotahta",
+      "item.testone.denemebiomeyvesi": "Portal Biome Meyvesi",
+      "block.testone.yenidunyablok": "Between Topraðý",
       "block.testone.denemebiocimen": "Portal Biome Çimeni",
       "block.testone.yenidunyayaprak": "Between Yaprak",
       "item.testone.thebetweenworld": "Yenidunyacakmak",
