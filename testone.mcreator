@@ -276,6 +276,86 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "ThebetweenPickaxe",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ThebetweenAxe",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ThebetweenSword",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ThebetweenShovel",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ThebetweenHoe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ThebetweenPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ThebetweenAxeRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ThebetweenSwordRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ThebetweenShovelRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ThebetweenHoeRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -286,22 +366,27 @@
       "block.testone.biotahta": "Biotahta",
       "item.testone.denemebiomeyvesi": "Bio Meyvesi",
       "block.testone.yenidunyablok": "Yeni Dünya Bloðu",
-      "block.testone.denemebioyaprak": "Bio Yaprak",
       "block.testone.denemebiocimen": "bio çimeni",
       "block.testone.yenidunyayaprak": "Yeni dünya yaprak",
-      "biome.testone.yenidunyabio": "Yeni dunya bio",
-      "block.testone.denemebioagac": "Bio Kütüðü",
       "item.testone.thebetweenworld": "Yenidunyacakmak",
       "block.testone.spongeblock": "Sponge Block",
-      "block.testone.thebetweendiamondoreblock": "Block of ThebetweenDiamond",
-      "block.testone.denemebiotoprak": "Bio toprak",
+      "item.testone.thebetweenhoe": "Thebetween Hoe",
       "item.testone.yenidunyameyve": "Yenidunyameyve",
       "block.testone.yenidunyabiocimen": "Yenidunyabiocimen",
       "block.testone.denemebiomeyve": "bio meyve",
+      "item.testone.thebetweenshovel": "Thebetween Shovel",
       "advancements.thebetweendia.descr": "\u0027the between diamond\u0027 elde et",
       "biome.testone.deneme": "Deneme",
-      "block.testone.thebetweendiamondore": "ThebetweenDiamond Ore",
       "advancements.thebetweendia.title": "T3 Dünya bir arada",
+      "item.testone.thebetweenaxe": "Thebetween Axe",
+      "item.testone.thebetweensword": "Thebetween kýlýç",
+      "block.testone.denemebioyaprak": "Bio Yaprak",
+      "biome.testone.yenidunyabio": "Yeni dunya bio",
+      "block.testone.denemebioagac": "Bio Kütüðü",
+      "block.testone.thebetweendiamondoreblock": "Block of ThebetweenDiamond",
+      "block.testone.denemebiotoprak": "Bio toprak",
+      "item.testone.thebetweenpickaxe": "Thebetween Kazma",
+      "block.testone.thebetweendiamondore": "ThebetweenDiamond Ore",
       "block.testone.yenidunyabiotoprak": "Yeni dünya bio toprak",
       "block.testone.yenidunyameyvesi": "Yeni dünya meyve"
     }

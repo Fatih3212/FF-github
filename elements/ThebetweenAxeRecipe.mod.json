@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:ThebetweenDiamondGem"
+      },
+      {
+        "value": "CUSTOM:ThebetweenDiamondGem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ThebetweenDiamondGem"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ThebetweenAxe"
+    },
+    "name": "thebetweenaxerecipe",
+    "namespace": "mod"
+  }
+}
