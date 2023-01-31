@@ -259,9 +259,9 @@
   "language_map": {
     "en_us": {
       "item.testone.thebetweendiamondgem": "ThebetweenDiamond",
-      "block.testone.biotahta": "Biotahta",
-      "item.testone.denemebiomeyvesi": "Bio Meyvesi",
       "block.testone.yenidunyablok": "Yeni Dünya Bloðu",
+      "item.testone.denemebiomeyvesi": "Bio Meyvesi",
+      "block.testone.biotahta": "Biotahta",
       "block.testone.denemebioyaprak": "Bio Yaprak",
       "block.testone.denemebiocimen": "bio çimeni",
       "block.testone.denemebioagac": "Bio Kütüðü",
@@ -269,11 +269,13 @@
       "block.testone.spongeblock": "Sponge Block",
       "block.testone.thebetweendiamondoreblock": "Block of ThebetweenDiamond",
       "block.testone.denemebiotoprak": "Bio toprak",
+      "item.testone.yenidunyameyve": "Yenidunyameyve",
       "block.testone.denemebiomeyve": "bio meyve",
       "advancements.thebetweendia.descr": "\u0027the between diamond\u0027 elde et",
       "biome.testone.deneme": "Deneme",
       "block.testone.thebetweendiamondore": "ThebetweenDiamond Ore",
-      "advancements.thebetweendia.title": "T3 Dünya bir arada"
+      "advancements.thebetweendia.title": "T3 Dünya bir arada",
+      "block.testone.yenidunyameyvesi": "Yeni dünya meyve"
     }
   },
   "workspaceSettings": {
