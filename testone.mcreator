@@ -190,6 +190,38 @@
       }
     },
     {
+      "name": "Yenidunyameyvesi",
+      "type": "plant",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Yenidunyameyve",
+      "type": "food",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "YenidunyameyveFoodEaten",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
       "name": "YenidunyablokPortalTriggerUsed",
       "type": "procedure",
       "sortid": 20,
@@ -206,17 +238,17 @@
       }
     },
     {
-      "name": "TheBetweenWorld",
-      "type": "dimension",
-      "sortid": 17,
+      "name": "SpongeBlock",
+      "type": "block",
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "ids": {}
     },
     {
-      "name": "SpongeBlock",
-      "type": "block",
-      "sortid": 21,
+      "name": "TheBetweenWorld",
+      "type": "dimension",
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "ids": {}
@@ -233,8 +265,6 @@
       "block.testone.denemebioyaprak": "Bio Yaprak",
       "block.testone.denemebiocimen": "bio çimeni",
       "block.testone.denemebioagac": "Bio Kütüðü",
-      "item.testone.thebetweenworld": "Yenidunyacakmak",
-      "block.testone.spongeblock": "Sponge Block",
       "block.testone.thebetweendiamondoreblock": "Block of ThebetweenDiamond",
       "block.testone.denemebiotoprak": "Bio toprak",
       "block.testone.denemebiomeyve": "bio meyve",

@@ -1,32 +1,15 @@
 
 package net.mcreator.testone.block;
 
-import net.minecraftforge.registries.ObjectHolder;
-
-import net.minecraft.world.storage.loot.LootContext;
-import net.minecraft.world.IBlockReader;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.Direction;
-import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.Item;
-import net.minecraft.item.BlockItem;
-import net.minecraft.block.material.Material;
-import net.minecraft.block.SoundType;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Block;
-
-import net.mcreator.testone.TestoneElements;
-
-import java.util.List;
-import java.util.Collections;
-
 @TestoneElements.ModElement.Tag
 public class SpongeBlockBlock extends TestoneElements.ModElement {
+
 	@ObjectHolder("testone:spongeblock")
 	public static final Block block = null;
+
 	public SpongeBlockBlock(TestoneElements instance) {
 		super(instance, 21);
+
 	}
 
 	@Override
@@ -35,9 +18,14 @@ public class SpongeBlockBlock extends TestoneElements.ModElement {
 		elements.items
 				.add(() -> new BlockItem(block, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(block.getRegistryName()));
 	}
+
 	public static class CustomBlock extends Block {
+
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(10f, 5f).lightValue(15));
+			super(
+
+					Block.Properties.create(Material.ROCK).sound(SoundType.GROUND).hardnessAndResistance(10f, 5f).lightValue(15));
+
 			setRegistryName("spongeblock");
 		}
 
@@ -53,5 +41,7 @@ public class SpongeBlockBlock extends TestoneElements.ModElement {
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
 		}
+
 	}
+
 }
