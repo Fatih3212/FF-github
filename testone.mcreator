@@ -393,7 +393,7 @@
       "name": "TheBiomeFriutEdibleFoodEaten",
       "type": "procedure",
       "sortid": 24,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "metadata": {
