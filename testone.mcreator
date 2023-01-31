@@ -157,7 +157,7 @@
       "name": "Yenidunyacakmak",
       "type": "tool",
       "sortid": 18,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {}
     },
@@ -165,7 +165,7 @@
       "name": "YenidunyacakmakRightClickedOnBlock",
       "type": "procedure",
       "sortid": 18,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "metadata": {
@@ -195,9 +195,9 @@
   "language_map": {
     "en_us": {
       "item.testone.thebetweendiamondgem": "ThebetweenDiamond",
-      "block.testone.yenidunyablok": "Yeni Dünya Bloðu",
-      "item.testone.denemebiomeyvesi": "Bio Meyvesi",
       "block.testone.biotahta": "Biotahta",
+      "item.testone.denemebiomeyvesi": "Bio Meyvesi",
+      "block.testone.yenidunyablok": "Yeni Dünya Bloðu",
       "block.testone.denemebioyaprak": "Bio Yaprak",
       "block.testone.denemebiocimen": "bio çimeni",
       "block.testone.denemebioagac": "Bio Kütüðü",
