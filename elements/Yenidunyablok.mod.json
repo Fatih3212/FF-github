@@ -22,7 +22,7 @@
     "faceShape": "SOLID",
     "name": "Yeni Dünya Bloðu",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 3.0,
     "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
