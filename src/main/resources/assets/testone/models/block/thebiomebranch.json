@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "testone:blocks/thebiomebranch",
+    "up": "testone:blocks/thebiomebranch",
+    "north": "testone:blocks/thebiomebranch",
+    "east": "testone:blocks/thebiomebranch",
+    "south": "testone:blocks/thebiomebranch",
+    "west": "testone:blocks/thebiomebranch",
+    "particle": "testone:blocks/thebiomebranch"
+  }
+}
