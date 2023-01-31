@@ -4,7 +4,7 @@
   "definition": {
     "recipeType": "Crafting",
     "xpReward": 0.0,
-    "recipeRetstackSize": 4,
+    "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": true,
     "recipeSlots": [
@@ -21,7 +21,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Biotahta"
+        "value": "CUSTOM:SpongePlanks"
       },
       {
         "value": ""
@@ -30,7 +30,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:Biotahta"
+        "value": "CUSTOM:SpongePlanks"
       },
       {
         "value": ""
@@ -39,7 +39,7 @@
     "recipeReturnStack": {
       "value": "Items.STICK"
     },
-    "name": "cubukr",
+    "name": "plankssticksponge",
     "namespace": "mod"
   }
 }

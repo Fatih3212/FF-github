@@ -1,40 +1,35 @@
 {
   "group": "testone",
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "012",
-    "345",
-    "678"
-  ],
-  "key": {
-    "0": {
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
       "item": "testone:thebetweendiamondgem"
     },
-    "1": {
+    {
       "item": "testone:thebetweendiamondgem"
     },
-    "2": {
+    {
       "item": "testone:thebetweendiamondgem"
     },
-    "3": {
+    {
       "item": "testone:thebetweendiamondgem"
     },
-    "4": {
+    {
       "item": "testone:thebetweendiamondgem"
     },
-    "5": {
+    {
       "item": "testone:thebetweendiamondgem"
     },
-    "6": {
+    {
       "item": "testone:thebetweendiamondgem"
     },
-    "7": {
+    {
       "item": "testone:thebetweendiamondgem"
     },
-    "8": {
+    {
       "item": "testone:thebetweendiamondgem"
     }
-  },
+  ],
   "result": {
     "item": "testone:thebetweendiamondoreblock",
     "count": 1

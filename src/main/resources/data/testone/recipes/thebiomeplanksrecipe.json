@@ -1,0 +1,13 @@
+{
+  "group": "testone",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "testone:thebiomewood"
+    }
+  ],
+  "result": {
+    "item": "testone:thebiomeplanks",
+    "count": 1
+  }
+}
