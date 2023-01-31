@@ -136,6 +136,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Yenidunyablok",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -143,8 +151,9 @@
   "language_map": {
     "en_us": {
       "item.testone.thebetweendiamondgem": "ThebetweenDiamond",
-      "item.testone.denemebiomeyvesi": "Bio Meyvesi",
       "block.testone.biotahta": "Biotahta",
+      "item.testone.denemebiomeyvesi": "Bio Meyvesi",
+      "block.testone.yenidunyablok": "Yeni Dünya Bloðu",
       "block.testone.denemebioyaprak": "Bio Yaprak",
       "block.testone.denemebiocimen": "bio çimeni",
       "block.testone.denemebioagac": "Bio Kütüðü",
