@@ -154,14 +154,6 @@
       "ids": {}
     },
     {
-      "name": "Yenidunyacakmak",
-      "type": "tool",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "YenidunyacakmakRightClickedOnBlock",
       "type": "procedure",
       "sortid": 18,
