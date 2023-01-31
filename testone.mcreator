@@ -209,7 +209,7 @@
       "name": "YenidunyameyveFoodEaten",
       "type": "procedure",
       "sortid": 21,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "metadata": {
@@ -225,7 +225,7 @@
       "name": "YenidunyablokPortalTriggerUsed",
       "type": "procedure",
       "sortid": 20,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "metadata": {

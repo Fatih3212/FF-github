@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "testone:blocks/spongewood",
-    "up": "testone:blocks/spongewood",
+    "down": "testone:blocks/spongeblockaltust",
+    "up": "testone:blocks/spongeblockaltust",
     "north": "testone:blocks/spongewood",
     "east": "testone:blocks/spongewood",
     "south": "testone:blocks/spongewood",
     "west": "testone:blocks/spongewood",
-    "particle": "testone:blocks/spongewood"
+    "particle": "testone:blocks/spongeblockaltust"
   }
 }
