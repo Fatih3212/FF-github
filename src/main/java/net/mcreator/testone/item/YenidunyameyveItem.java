@@ -8,12 +8,12 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.World;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.Food;
 import net.minecraft.entity.LivingEntity;
 
 import net.mcreator.testone.procedures.YenidunyameyveFoodEatenProcedure;
+import net.mcreator.testone.itemgroup.ModesyalariItemGroup;
 import net.mcreator.testone.TestoneElements;
 
 @TestoneElements.ModElement.Tag
@@ -30,7 +30,8 @@ public class YenidunyameyveItem extends TestoneElements.ModElement {
 	}
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
-			super(new Item.Properties().group(ItemGroup.FOOD).maxStackSize(64).food((new Food.Builder()).hunger(2).saturation(0.1f).build()));
+			super(new Item.Properties().group(ModesyalariItemGroup.tab).maxStackSize(64)
+					.food((new Food.Builder()).hunger(2).saturation(0.1f).build()));
 			setRegistryName("yenidunyameyve");
 		}
 

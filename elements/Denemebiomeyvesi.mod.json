@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Bio Meyvesi",
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:Modesyalari"
     },
     "stackSize": 64,
     "nutritionalValue": 5,

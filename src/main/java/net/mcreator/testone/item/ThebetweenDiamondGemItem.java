@@ -4,10 +4,10 @@ package net.mcreator.testone.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.testone.itemgroup.ModesyalariItemGroup;
 import net.mcreator.testone.TestoneElements;
 
 @TestoneElements.ModElement.Tag
@@ -24,7 +24,7 @@ public class ThebetweenDiamondGemItem extends TestoneElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64));
+			super(new Item.Properties().group(ModesyalariItemGroup.tab).maxStackSize(64));
 			setRegistryName("thebetweendiamondgem");
 		}
 
