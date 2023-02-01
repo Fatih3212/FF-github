@@ -42,7 +42,7 @@ import java.util.Random;
 
 @TestoneElements.ModElement.Tag
 public class DenemeBiome extends TestoneElements.ModElement {
-	@ObjectHolder("testone:deneme")
+	@ObjectHolder("testone:portalbiome")
 	public static final CustomBiome biome = null;
 	public DenemeBiome(TestoneElements instance) {
 		super(instance, 1);
@@ -64,7 +64,7 @@ public class DenemeBiome extends TestoneElements.ModElement {
 					.category(Biome.Category.NONE).waterColor(4159204).waterFogColor(329011)
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(DenemebiocimenBlock.block.getDefaultState(),
 							DenemebiotoprakBlock.block.getDefaultState(), DenemebiotoprakBlock.block.getDefaultState())));
-			setRegistryName("deneme");
+			setRegistryName("portalbiome");
 			DefaultBiomeFeatures.addCarvers(this);
 			DefaultBiomeFeatures.addStructures(this);
 			DefaultBiomeFeatures.addMonsterRooms(this);

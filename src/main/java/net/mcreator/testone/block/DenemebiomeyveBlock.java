@@ -75,7 +75,7 @@ public class DenemebiomeyveBlock extends TestoneElements.ModElement {
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
 			boolean biomeCriteria = false;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("testone:deneme")))
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("testone:portalbiome")))
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;
