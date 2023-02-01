@@ -75,7 +75,7 @@ public class YenidunyameyvesiBlock extends TestoneElements.ModElement {
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
 			boolean biomeCriteria = false;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("testone:yenidunyabio")))
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("testone:spongebio")))
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;

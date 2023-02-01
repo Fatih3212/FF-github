@@ -42,7 +42,7 @@ import java.util.Random;
 
 @TestoneElements.ModElement.Tag
 public class YenidunyabioBiome extends TestoneElements.ModElement {
-	@ObjectHolder("testone:yenidunyabio")
+	@ObjectHolder("testone:spongebio")
 	public static final CustomBiome biome = null;
 	public YenidunyabioBiome(TestoneElements instance) {
 		super(instance, 20);
@@ -61,10 +61,10 @@ public class YenidunyabioBiome extends TestoneElements.ModElement {
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
 			super(new Biome.Builder().downfall(0.5f).depth(0.1f).scale(0.2f).temperature(0.5f).precipitation(Biome.RainType.RAIN)
-					.category(Biome.Category.NONE).waterColor(4159204).waterFogColor(329011).parent("testone:yenidunyabio")
+					.category(Biome.Category.NONE).waterColor(4159204).waterFogColor(329011).parent("testone:spongebio")
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(YenidunyabiocimenBlock.block.getDefaultState(),
 							YenidunyabiotoprakBlock.block.getDefaultState(), YenidunyabiotoprakBlock.block.getDefaultState())));
-			setRegistryName("yenidunyabio");
+			setRegistryName("spongebio");
 			DefaultBiomeFeatures.addCarvers(this);
 			DefaultBiomeFeatures.addStructures(this);
 			DefaultBiomeFeatures.addMonsterRooms(this);

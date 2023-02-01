@@ -8,17 +8,17 @@
   ],
   "key": {
     "0": {
-      "item": "testone:darkingot"
+      "item": "testone:unknown_element"
     },
     "1": {
-      "item": "testone:darkingot"
+      "item": "testone:unknown_element"
     },
     "2": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "testone:darkingottoolssword",
+    "item": "testone:unknown_element",
     "count": 1
   }
 }
