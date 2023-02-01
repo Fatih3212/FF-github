@@ -657,6 +657,46 @@
       }
     },
     {
+      "name": "Entity1EntityIsHurt",
+      "type": "procedure",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Entity1PlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fencesss",
+      "type": "block",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
       "name": "Darkingotadvench",
       "type": "achievement",
       "sortid": 63,
@@ -709,7 +749,6 @@
       "block.testone.denemebioyaprak": "Portal Biome Yaprak",
       "entity.testone.entity1": "Entity1",
       "biome.testone.yenidunyabio": "Sponge Biome",
-      "advancements.darkingotadvench.descr": "dark külçe elde et!",
       "block.testone.thebiomewood": "Thebiomewood",
       "block.testone.portalbiomerdiven": "Portal bio merdiven",
       "block.testone.thebetweendiamondoreblock": "Block of ThebetweenDiamond",
@@ -734,10 +773,10 @@
       "block.testone.spongeblock": "Sponge kütük",
       "item.testone.yenidunyameyve": "Between Meyve",
       "block.testone.denemebiomeyve": "bio Friut",
-      "advancements.darkingotadvench.title": "karanlýk diyarýn karanlýk taþlarý",
       "block.testone.thebiomeplant": "The Biome Plant",
       "block.testone.denemebioagac": "Portal Biome Kütüðü",
       "block.testone.denemebiotoprak": "Portal Biome toprak",
+      "block.testone.fencesss": "Fence",
       "block.testone.darkblock": "Dark Blok",
       "block.testone.yenidunyabiotoprak": " Sponge Toprak"
     }

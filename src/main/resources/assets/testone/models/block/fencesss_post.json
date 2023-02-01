@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "testone:blocks/bioplanks",
+    "particle": "testone:blocks/bioplanks"
+  }
+}
