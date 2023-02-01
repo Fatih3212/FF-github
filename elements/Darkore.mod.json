@@ -28,7 +28,7 @@
     "creativeTab": {
       "value": "CUSTOM:Modesyalari"
     },
-    "destroyTool": "Not specified",
+    "destroyTool": "pickaxe",
     "affectedBySilkTouch": true,
     "customDrop": {
       "value": "CUSTOM:Darkingot"
@@ -60,8 +60,8 @@
     },
     "luminance": 0.0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
-    "spawnParticles": false,
+    "breakHarvestLevel": 3,
+    "spawnParticles": true,
     "particleToSpawn": {
       "value": "SMOKE_NORMAL"
     },
@@ -81,14 +81,10 @@
       "CUSTOM:TheBetweenWorld"
     ],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "Blocks.STONE"
-      }
-    ],
-    "frequencyPerChunks": 10,
+    "blocksToReplace": [],
+    "frequencyPerChunks": 20,
     "frequencyOnChunk": 8,
     "minGenerateHeight": 1,
-    "maxGenerateHeight": 20
+    "maxGenerateHeight": 15
   }
 }

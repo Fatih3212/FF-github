@@ -51,7 +51,7 @@ public class Entity1Entity extends TestoneElements.ModElement {
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.6f, 1.8f)).build("entity1")
+				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.9f, 0.9f)).build("entity1")
 						.setRegistryName("entity1");
 		elements.entities.add(() -> entity);
 		elements.items
@@ -77,13 +77,11 @@ public class Entity1Entity extends TestoneElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
 		RenderingRegistry.registerEntityRenderingHandler(CustomEntity.class, renderManager -> {
-			BipedRenderer customRender = new BipedRenderer(renderManager, new BipedModel(), 0.5f) {
+			return new MobRenderer(renderManager, new PigModel(), 0.5f) {
 				protected ResourceLocation getEntityTexture(Entity entity) {
 					return new ResourceLocation("testone:textures/heiomeolf.png");
 				}
 			};
-			customRender.addLayer(new BipedArmorLayer(customRender, new BipedModel(0.5f), new BipedModel(1)));
-			return customRender;
 		});
 	}
 	public static class CustomEntity extends MonsterEntity {
