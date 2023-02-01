@@ -3,7 +3,6 @@ package net.mcreator.testone.world.biome;
 
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.common.BiomeManager;
 
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilderConfig;
 import net.minecraft.world.gen.surfacebuilders.SurfaceBuilder;
@@ -42,7 +41,7 @@ import java.util.Random;
 
 @TestoneElements.ModElement.Tag
 public class YenidunyabioBiome extends TestoneElements.ModElement {
-	@ObjectHolder("testone:spongebio")
+	@ObjectHolder("testone:yenidunyabio")
 	public static final CustomBiome biome = null;
 	public YenidunyabioBiome(TestoneElements instance) {
 		super(instance, 20);
@@ -55,16 +54,14 @@ public class YenidunyabioBiome extends TestoneElements.ModElement {
 
 	@Override
 	public void init(FMLCommonSetupEvent event) {
-		BiomeManager.addSpawnBiome(biome);
-		BiomeManager.addBiome(BiomeManager.BiomeType.WARM, new BiomeManager.BiomeEntry(biome, 10));
 	}
 	static class CustomBiome extends Biome {
 		public CustomBiome() {
 			super(new Biome.Builder().downfall(0.5f).depth(0.1f).scale(0.2f).temperature(0.5f).precipitation(Biome.RainType.RAIN)
-					.category(Biome.Category.NONE).waterColor(4159204).waterFogColor(329011).parent("testone:spongebio")
+					.category(Biome.Category.NONE).waterColor(4159204).waterFogColor(329011).parent("testone:yenidunyabio")
 					.surfaceBuilder(SurfaceBuilder.DEFAULT, new SurfaceBuilderConfig(YenidunyabiocimenBlock.block.getDefaultState(),
 							YenidunyabiotoprakBlock.block.getDefaultState(), YenidunyabiotoprakBlock.block.getDefaultState())));
-			setRegistryName("spongebio");
+			setRegistryName("yenidunyabio");
 			DefaultBiomeFeatures.addCarvers(this);
 			DefaultBiomeFeatures.addStructures(this);
 			DefaultBiomeFeatures.addMonsterRooms(this);
