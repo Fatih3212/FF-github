@@ -593,6 +593,68 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "DarkingotarmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingotarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingotarmorArmor",
+      "type": "armor",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "DarkingotarmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingotarmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingotarmorArmorBootsTickEvent",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -602,11 +664,13 @@
       "block.testone.thebiomebranch": "The Biome Branch",
       "biome.testone.thebiome": "The Biome",
       "item.testone.darkingottoolsshovel": "Dark Külçesi Kürek",
+      "item.testone.darkingotarmorarmorboots": "Dark bot",
       "block.testone.yenidunyablok": "Between Topraðý",
       "item.testone.denemebiomeyvesi": "Portal Biome Meyvesi",
       "block.testone.biotahta": "Biotahta",
       "block.testone.yenidunyayaprak": "Between Yaprak",
       "biome.testone.spongebio": "Sponge Biome",
+      "item.testone.darkingotarmorarmorlegs": "Dark pantolon",
       "item.testone.darkingot": "Dark Külçesi",
       "item.testone.thebetweenworld": "Yenidunyacakmak",
       "item.testone.thebetweenhoe": "Thebetween Hoe",
@@ -619,20 +683,21 @@
       "item.testone.thebetweensword": "Thebetween kýlýç",
       "block.testone.thebiomegrass": "Thebiome Grass",
       "block.testone.denemebioyaprak": "Portal Biome Yaprak",
-      "entity.testone.entity1": "Entity1",
-      "biome.testone.yenidunyabio": "Sponge Biome",
+      "entity.testone.entity1": "TheBiomeWolf",
       "block.testone.thebiomewood": "Thebiomewood",
       "block.testone.thebetweendiamondoreblock": "Block of ThebetweenDiamond",
       "biome.testone.portalbiome": "Portal Biome",
       "item.testone.thebetweenpickaxe": "Thebetween Kazma",
       "itemGroup.tabmodesyalari": "Modesyalari",
       "block.testone.thebetweendiamondore": "ThebetweenDiamond Ore",
-      "item.testone.entity1": "Entity1 Spawn Egg",
+      "item.testone.entity1": "TheBiomeWolf Spawn Egg",
+      "item.testone.darkingotarmorarmorbody": "Dark göðüslük",
       "item.testone.darkingottoolshoe": "Dark Külçesi Çapa",
       "block.testone.yenidunyameyvesi": "Between Meyvesi",
       "block.testone.spongeplanks": "Sponge Planks",
       "block.testone.thebiomedirt": "The biome dirt",
       "item.testone.thebiomefriutedible": "The Biome Friut Edible",
+      "item.testone.darkingotarmorarmorhelmet": "Dark kask",
       "item.testone.thebetweendiamondgem": "ThebetweenDiamond",
       "item.testone.darkingottoolssword": "Dark Külçesi Kýlýç",
       "block.testone.denemebiocimen": "Portal Biome Çimeni",

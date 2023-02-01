@@ -1,0 +1,50 @@
+{
+  "_fv": 6,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "darkkask",
+    "enableBody": true,
+    "textureBody": "darkgogusluk",
+    "enableLeggings": true,
+    "textureLeggings": "darkpantolon",
+    "enableBoots": true,
+    "textureBoots": "darkbot",
+    "onBootsTick": {
+      "name": "DarkingotarmorArmorBootsTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Modesyalari"
+    },
+    "armorTextureFile": "darkingotarmor",
+    "helmetName": "Dark kask",
+    "bodyName": "Dark göðüslük",
+    "leggingsName": "Dark pantolon",
+    "bootsName": "Dark bot",
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 20,
+    "damageValueHelmet": 4,
+    "damageValueBody": 10,
+    "damageValueLeggings": 12,
+    "damageValueBoots": 4,
+    "enchantability": 15,
+    "toughness": 0.0,
+    "equipSound": {
+      "value": "block.anvil.destroy"
+    },
+    "repairItems": []
+  }
+}

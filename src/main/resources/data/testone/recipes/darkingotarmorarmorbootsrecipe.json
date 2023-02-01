@@ -1,0 +1,26 @@
+{
+  "group": "testone",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "testone:darkingot"
+    },
+    "2": {
+      "item": "testone:darkingot"
+    },
+    "3": {
+      "item": "testone:darkingot"
+    },
+    "5": {
+      "item": "testone:darkingot"
+    }
+  },
+  "result": {
+    "item": "testone:darkingotarmorarmorboots",
+    "count": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "group": "testone",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "testone:darkingot"
+    },
+    "2": {
+      "item": "testone:darkingot"
+    },
+    "3": {
+      "item": "testone:darkingot"
+    },
+    "4": {
+      "item": "testone:darkingot"
+    },
+    "5": {
+      "item": "testone:darkingot"
+    },
+    "6": {
+      "item": "testone:darkingot"
+    },
+    "7": {
+      "item": "testone:darkingot"
+    },
+    "8": {
+      "item": "testone:darkingot"
+    }
+  },
+  "result": {
+    "item": "testone:unknown_elementbody",
+    "count": 1
+  }
+}
