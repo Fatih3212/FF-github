@@ -657,14 +657,6 @@
       }
     },
     {
-      "name": "Fencesss",
-      "type": "block",
-      "sortid": 65,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "Darkingotadvench",
       "type": "achievement",
       "sortid": 63,
@@ -687,24 +679,32 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "GhastBossRED",
+      "type": "mob",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.testone.thebiomebranch": "The Biome Branch",
       "biome.testone.thebiome": "The Biome",
+      "block.testone.thebiomebranch": "The Biome Branch",
       "item.testone.darkingottoolsshovel": "Dark Külçesi Kürek",
       "item.testone.darkingotarmorarmorboots": "Dark bot",
-      "block.testone.yenidunyablok": "Between Topraðý",
-      "item.testone.denemebiomeyvesi": "Portal Biome Meyvesi",
       "block.testone.biotahta": "Biotahta",
-      "item.testone.darkingotarmorarmorlegs": "Dark pantolon",
-      "biome.testone.spongebio": "Sponge Biome",
+      "item.testone.denemebiomeyvesi": "Portal Biome Meyvesi",
+      "block.testone.yenidunyablok": "Between Topraðý",
       "block.testone.yenidunyayaprak": "Between Yaprak",
-      "item.testone.thebetweenworld": "The Between World-Flint And Steel",
+      "biome.testone.spongebio": "Sponge Biome",
+      "item.testone.darkingotarmorarmorlegs": "Dark pantolon",
       "item.testone.darkingot": "Dark Külçesi",
+      "item.testone.thebetweenworld": "The Between World-Flint And Steel",
       "item.testone.thebetweenhoe": "Thebetween Hoe",
       "block.testone.yenidunyabiocimen": "Sponge Çimen",
       "item.testone.thebetweenshovel": "Thebetween Shovel",
@@ -739,12 +739,13 @@
       "item.testone.darkingottoolsaxe": "Dark Külçesi Balta",
       "item.testone.darkingottoolspickaxe": "Dark Külçe Kazma",
       "block.testone.spongeblock": "Sponge kütük",
+      "item.testone.ghastbossred": "Ghast Boss RED Spawn Egg",
       "item.testone.yenidunyameyve": "Between Meyve",
       "block.testone.denemebiomeyve": "bio Friut",
       "block.testone.thebiomeplant": "The Biome Plant",
+      "entity.testone.ghastbossred": "Ghast Boss RED",
       "block.testone.denemebioagac": "Portal Biome Kütüðü",
       "block.testone.denemebiotoprak": "Portal Biome toprak",
-      "block.testone.fencesss": "Fence",
       "block.testone.darkblock": "Dark Blok",
       "block.testone.yenidunyabiotoprak": " Sponge Toprak"
     }

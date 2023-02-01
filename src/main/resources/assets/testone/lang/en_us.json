@@ -24,6 +24,7 @@
   "entity.testone.entity1": "Entity1",
   "biome.testone.yenidunyabio": "Sponge Biome",
   "block.testone.thebiomewood": "Thebiomewood",
+  "block.testone.portalbiomerdiven": "Portal bio merdiven",
   "block.testone.thebetweendiamondoreblock": "Block of ThebetweenDiamond",
   "biome.testone.portalbiome": "Portal Biome",
   "item.testone.thebetweenpickaxe": "Thebetween Kazma",
@@ -44,12 +45,13 @@
   "item.testone.darkingottoolsaxe": "Dark Külçesi Balta",
   "item.testone.darkingottoolspickaxe": "Dark Külçe Kazma",
   "block.testone.spongeblock": "Sponge kütük",
+  "item.testone.ghastbossred": "Ghast Boss RED Spawn Egg",
   "item.testone.yenidunyameyve": "Between Meyve",
   "block.testone.denemebiomeyve": "bio Friut",
   "block.testone.thebiomeplant": "The Biome Plant",
+  "entity.testone.ghastbossred": "Ghast Boss RED",
   "block.testone.denemebioagac": "Portal Biome Kütüðü",
   "block.testone.denemebiotoprak": "Portal Biome toprak",
-  "block.testone.fencesss": "Fence",
   "block.testone.darkblock": "Dark Blok",
   "block.testone.yenidunyabiotoprak": " Sponge Toprak"
 }
