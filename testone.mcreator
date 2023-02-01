@@ -657,38 +657,6 @@
       }
     },
     {
-      "name": "Entity1EntityIsHurt",
-      "type": "procedure",
-      "sortid": 63,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
-      "name": "Entity1PlayerCollidesWithThisEntity",
-      "type": "procedure",
-      "sortid": 64,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      }
-    },
-    {
       "name": "Fencesss",
       "type": "block",
       "sortid": 65,
