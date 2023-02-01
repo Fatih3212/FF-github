@@ -481,6 +481,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Entity1",
+      "type": "mob",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -512,6 +520,7 @@
       "block.testone.thebiomegrass": "Thebiome Grass",
       "block.testone.thebiomeplant": "Thebiomeplant",
       "block.testone.denemebioyaprak": "Portal Biome Yaprak",
+      "entity.testone.entity1": "TheBiomeWolf",
       "biome.testone.yenidunyabio": "Sponge Biome",
       "block.testone.denemebioagac": "Portal Biome Kütüðü",
       "block.testone.thebiomewood": "Thebiomewood",
@@ -521,6 +530,7 @@
       "item.testone.thebetweenpickaxe": "Thebetween Kazma",
       "itemGroup.tabmodesyalari": "Modesyalari",
       "block.testone.thebetweendiamondore": "ThebetweenDiamond Ore",
+      "item.testone.entity1": "TheBiomeWolf Spawn Egg",
       "block.testone.yenidunyabiotoprak": " Sponge Toprak",
       "block.testone.yenidunyameyvesi": "Between Meyvesi",
       "block.testone.spongeplanks": "Sponge Planks"
