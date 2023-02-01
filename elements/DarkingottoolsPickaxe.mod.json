@@ -1,0 +1,23 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "darkkazma",
+    "customModelName": "Normal",
+    "name": "Dark Külçe Kazma",
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 2,
+    "efficiency": 10.0,
+    "attackSpeed": 1.0,
+    "enchantability": 15,
+    "damageVsEntity": 2.0,
+    "usageCount": 2500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": []
+  }
+}

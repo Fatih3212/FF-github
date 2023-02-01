@@ -248,8 +248,7 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
-      "registry_name": "spongebio"
+      "ids": {}
     },
     {
       "name": "ThebetweenPickaxe",
@@ -484,6 +483,110 @@
       "ids": {}
     },
     {
+      "name": "DarkingottoolsPickaxe",
+      "type": "tool",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingottoolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Darkblock",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingottoolsShovel",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingottoolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Darkingot",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Darkore",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingottoolsAxe",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingottoolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingottoolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingottoolsSword",
+      "type": "tool",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingottoolsHoe",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingottoolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
       "name": "Entity1",
       "type": "mob",
       "sortid": 44,
@@ -507,12 +610,12 @@
       "block.testone.denemebiocimen": "Portal Biome Çimeni",
       "block.testone.yenidunyayaprak": "Between Yaprak",
       "biome.testone.spongebio": "Sponge Biome",
-      "item.testone.thebetweenworld": "The Between World-Flint And Steel",
+      "item.testone.thebetweenworld": "Yenidunyacakmak",
       "block.testone.spongeblock": "Sponge kütük",
       "item.testone.thebetweenhoe": "Thebetween Hoe",
       "item.testone.yenidunyameyve": "Between Meyve",
       "block.testone.yenidunyabiocimen": "Sponge Çimen",
-      "block.testone.denemebiomeyve": "bio Friut",
+      "block.testone.denemebiomeyve": "bio meyve",
       "item.testone.thebetweenshovel": "Thebetween Shovel",
       "advancements.thebetweendia.descr": "\u0027the between diamond\u0027 elde et",
       "advancements.thebetweendia.title": "T3 Dünya bir arada",
@@ -520,9 +623,8 @@
       "block.testone.thebiomeplanks": "The Biome Planks",
       "item.testone.thebetweensword": "Thebetween kýlýç",
       "block.testone.thebiomegrass": "Thebiome Grass",
-      "block.testone.thebiomeplant": "The Biome Plant",
+      "block.testone.thebiomeplant": "Thebiomeplant",
       "block.testone.denemebioyaprak": "Portal Biome Yaprak",
-      "entity.testone.entity1": "TheBiomeWolf",
       "block.testone.denemebioagac": "Portal Biome Kütüðü",
       "block.testone.thebiomewood": "Thebiomewood",
       "block.testone.thebetweendiamondoreblock": "Block of ThebetweenDiamond",
@@ -531,9 +633,8 @@
       "item.testone.thebetweenpickaxe": "Thebetween Kazma",
       "itemGroup.tabmodesyalari": "Modesyalari",
       "block.testone.thebetweendiamondore": "ThebetweenDiamond Ore",
-      "item.testone.entity1": "TheBiomeWolf Spawn Egg",
       "block.testone.yenidunyabiotoprak": " Sponge Toprak",
-      "block.testone.yenidunyameyvesi": "Sponge Friut",
+      "block.testone.yenidunyameyvesi": "Between Meyvesi",
       "block.testone.spongeplanks": "Sponge Planks"
     }
   },

@@ -1,0 +1,24 @@
+{
+  "group": "testone",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "testone:unknown_element"
+    },
+    "1": {
+      "item": "testone:unknown_element"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "testone:unknown_element",
+    "count": 1
+  }
+}
