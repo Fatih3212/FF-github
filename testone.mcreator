@@ -481,6 +481,110 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Darkore",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Darkingot",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingottoolsPickaxe",
+      "type": "tool",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingottoolsAxe",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingottoolsSword",
+      "type": "tool",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingottoolsShovel",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingottoolsHoe",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingottoolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingottoolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingottoolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingottoolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingottoolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Darkblock",
+      "type": "block",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -491,13 +595,19 @@
       "item.testone.thebiomefriutedible": "The Biome Friut Edible",
       "block.testone.thebiomebranch": "The Biome Branch",
       "biome.testone.thebiome": "The Biome",
+      "item.testone.darkingottoolsshovel": "Dark Külçesi Kürek",
       "item.testone.thebetweendiamondgem": "ThebetweenDiamond",
+      "item.testone.darkingottoolssword": "Dark Külçesi Kýlýç",
       "block.testone.biotahta": "Biotahta",
       "item.testone.denemebiomeyvesi": "Portal Biome Meyvesi",
       "block.testone.yenidunyablok": "Between Topraðý",
       "block.testone.denemebiocimen": "Portal Biome Çimeni",
+      "block.testone.darkore": "Dark ore",
       "block.testone.yenidunyayaprak": "Between Yaprak",
       "item.testone.thebetweenworld": "Yenidunyacakmak",
+      "item.testone.darkingot": "Dark Külçesi",
+      "item.testone.darkingottoolspickaxe": "Dark Külçe Kazma",
+      "item.testone.darkingottoolsaxe": "Dark Külçesi Balta",
       "block.testone.spongeblock": "Sponge kütük",
       "item.testone.thebetweenhoe": "Thebetween Hoe",
       "item.testone.yenidunyameyve": "Between Meyve",
@@ -521,7 +631,9 @@
       "item.testone.thebetweenpickaxe": "Thebetween Kazma",
       "itemGroup.tabmodesyalari": "Modesyalari",
       "block.testone.thebetweendiamondore": "ThebetweenDiamond Ore",
+      "block.testone.darkblock": "Dark Blok",
       "block.testone.yenidunyabiotoprak": " Sponge Toprak",
+      "item.testone.darkingottoolshoe": "Dark Külçesi Çapa",
       "block.testone.yenidunyameyvesi": "Between Meyvesi",
       "block.testone.spongeplanks": "Sponge Planks"
     }

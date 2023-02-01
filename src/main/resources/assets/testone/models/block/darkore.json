@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "testone:blocks/dark_ore",
+    "up": "testone:blocks/dark_ore",
+    "north": "testone:blocks/dark_ore",
+    "east": "testone:blocks/dark_ore",
+    "south": "testone:blocks/dark_ore",
+    "west": "testone:blocks/dark_ore",
+    "particle": "testone:blocks/dark_ore"
+  }
+}
