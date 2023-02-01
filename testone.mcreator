@@ -39,7 +39,8 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "ids": {}
+      "ids": {},
+      "registry_name": "portalbiome"
     },
     {
       "name": "Denemebiomeyve",
@@ -466,6 +467,14 @@
       "ids": {}
     },
     {
+      "name": "Piramit",
+      "type": "structure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
       "name": "FlintAndSteel",
       "type": "recipe",
       "sortid": 43,
@@ -488,32 +497,32 @@
       "block.testone.biotahta": "Biotahta",
       "block.testone.denemebiocimen": "Portal Biome Çimeni",
       "block.testone.yenidunyayaprak": "Between Yaprak",
-      "item.testone.thebetweenworld": "The Between World-Flint And Steel",
+      "item.testone.thebetweenworld": "Yenidunyacakmak",
       "block.testone.spongeblock": "Sponge kütük",
       "item.testone.thebetweenhoe": "Thebetween Hoe",
       "item.testone.yenidunyameyve": "Between Meyve",
       "block.testone.yenidunyabiocimen": "Sponge Çimen",
-      "block.testone.denemebiomeyve": "bio Friut",
+      "block.testone.denemebiomeyve": "bio meyve",
       "item.testone.thebetweenshovel": "Thebetween Shovel",
       "advancements.thebetweendia.descr": "\u0027the between diamond\u0027 elde et",
-      "biome.testone.deneme": "Portal Biome",
       "advancements.thebetweendia.title": "T3 Dünya bir arada",
       "item.testone.thebetweenaxe": "Thebetween Axe",
       "block.testone.thebiomeplanks": "The Biome Planks",
       "item.testone.thebetweensword": "Thebetween kýlýç",
       "block.testone.thebiomegrass": "Thebiome Grass",
-      "block.testone.thebiomeplant": "The Biome Plant",
+      "block.testone.thebiomeplant": "Thebiomeplant",
       "block.testone.denemebioyaprak": "Portal Biome Yaprak",
       "biome.testone.yenidunyabio": "Sponge Biome",
       "block.testone.denemebioagac": "Portal Biome Kütüðü",
       "block.testone.thebiomewood": "Thebiomewood",
       "block.testone.thebetweendiamondoreblock": "Block of ThebetweenDiamond",
+      "biome.testone.portalbiome": "Portal Biome",
       "block.testone.denemebiotoprak": "Portal Biome toprak",
       "item.testone.thebetweenpickaxe": "Thebetween Kazma",
       "itemGroup.tabmodesyalari": "Modesyalari",
       "block.testone.thebetweendiamondore": "ThebetweenDiamond Ore",
       "block.testone.yenidunyabiotoprak": " Sponge Toprak",
-      "block.testone.yenidunyameyvesi": "Sponge Friut",
+      "block.testone.yenidunyameyvesi": "Between Meyvesi",
       "block.testone.spongeplanks": "Sponge Planks"
     }
   },
