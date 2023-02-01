@@ -1,0 +1,25 @@
+{
+  "_fv": 6,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "karanlýk diyarýn karanlýk taþlarý",
+    "achievementDescription": "dark külçe elde et!",
+    "achievementIcon": {
+      "value": "CUSTOM:Darkblock"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 15,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:Thebetweendia"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_consumed\" x=\"43\" y=\"32\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:Darkingot</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

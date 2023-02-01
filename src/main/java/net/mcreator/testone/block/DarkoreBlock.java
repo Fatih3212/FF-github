@@ -4,6 +4,9 @@ package net.mcreator.testone.block;
 import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.common.ToolType;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.storage.loot.LootContext;
 import net.minecraft.world.gen.placement.Placement;
@@ -14,14 +17,17 @@ import net.minecraft.world.gen.GenerationStage;
 import net.minecraft.world.gen.ChunkGenerator;
 import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.particles.ParticleTypes;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.Minecraft;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -50,7 +56,8 @@ public class DarkoreBlock extends TestoneElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(7f, 10f).lightValue(0));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(7f, 10f).lightValue(0).harvestLevel(3)
+					.harvestTool(ToolType.PICKAXE));
 			setRegistryName("darkore");
 		}
 
@@ -60,6 +67,30 @@ public class DarkoreBlock extends TestoneElements.ModElement {
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(DarkingotItem.block, (int) (1)));
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public void animateTick(BlockState state, World world, BlockPos pos, Random random) {
+			super.animateTick(state, world, pos, random);
+			PlayerEntity entity = Minecraft.getInstance().player;
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			int i = x;
+			int j = y;
+			int k = z;
+			if (true)
+				for (int l = 0; l < 5; ++l) {
+					double d0 = (i + random.nextFloat());
+					double d1 = (j + random.nextFloat());
+					double d2 = (k + random.nextFloat());
+					int i1 = random.nextInt(2) * 2 - 1;
+					double d3 = (random.nextFloat() - 0.5D) * 1.000000001490116D;
+					double d4 = (random.nextFloat() - 0.5D) * 1.000000001490116D;
+					double d5 = (random.nextFloat() - 0.5D) * 1.000000001490116D;
+					world.addParticle(ParticleTypes.SMOKE, d0, d1, d2, d3, d4, d5);
+				}
 		}
 	}
 	@Override
@@ -78,10 +109,8 @@ public class DarkoreBlock extends TestoneElements.ModElement {
 				}
 			}, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.create("darkore", "darkore", blockAt -> {
 				boolean blockCriteria = false;
-				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
-					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 8), Placement.COUNT_RANGE, new CountRangeConfig(10, 1, 1, 20)));
+			}), block.getDefaultState(), 8), Placement.COUNT_RANGE, new CountRangeConfig(20, 1, 1, 15)));
 		}
 	}
 }
