@@ -595,6 +595,22 @@
       "ids": {}
     },
     {
+      "name": "DarkingotarmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkingotarmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
       "name": "DarkingotarmorArmor",
       "type": "armor",
       "sortid": 57,
@@ -607,22 +623,6 @@
         "eb": true,
         "ec": true
       }
-    },
-    {
-      "name": "DarkingotarmorArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 58,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "DarkingotarmorArmorBodyRecipe",
-      "type": "recipe",
-      "sortid": 59,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
     },
     {
       "name": "DarkingotarmorArmorLeggingsRecipe",
