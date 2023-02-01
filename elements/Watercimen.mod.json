@@ -2,12 +2,12 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "denemebiotoprak2",
-    "textureTop": "denemebiocimenust",
-    "textureLeft": "denemebiocimen",
-    "textureFront": "denemebiocimen",
-    "textureRight": "denemebiocimen",
-    "textureBack": "denemebiocimen",
+    "texture": "waterdirt",
+    "textureTop": "watercimenustu",
+    "textureLeft": "watercimenust",
+    "textureFront": "watercimenust",
+    "textureRight": "watercimenust",
+    "textureBack": "watercimenust",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -20,7 +20,7 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Portal Biome Çimeni",
+    "name": "Water çimen",
     "specialInfo": [],
     "hardness": 0.5,
     "resistance": 10.0,
@@ -31,7 +31,7 @@
     "destroyTool": "Not specified",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": "CUSTOM:Denemebiotoprak"
+      "value": "CUSTOM:Waterdirt"
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -56,7 +56,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "WET_GRASS"
+      "value": "GROUND"
     },
     "luminance": 0.0,
     "unbreakable": false,

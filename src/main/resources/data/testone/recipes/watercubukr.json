@@ -1,0 +1,20 @@
+{
+  "group": "testone",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "testone:watertahta"
+    },
+    "1": {
+      "item": "testone:watertahta"
+    }
+  },
+  "result": {
+    "item": "minecraft:stick",
+    "count": 4
+  }
+}

@@ -2,12 +2,12 @@
   "_fv": 6,
   "_type": "block",
   "definition": {
-    "texture": "denemebiotoprak2",
-    "textureTop": "denemebiocimenust",
-    "textureLeft": "denemebiocimen",
-    "textureFront": "denemebiocimen",
-    "textureRight": "denemebiocimen",
-    "textureBack": "denemebiocimen",
+    "texture": "waterkutukust",
+    "textureTop": "waterkutukust",
+    "textureLeft": "waterkutuk",
+    "textureFront": "waterkutuk",
+    "textureRight": "waterkutuk",
+    "textureBack": "waterkutuk",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -20,9 +20,9 @@
     "My": 1.0,
     "Mz": 1.0,
     "faceShape": "SOLID",
-    "name": "Portal Biome Çimeni",
+    "name": "Water Kütük",
     "specialInfo": [],
-    "hardness": 0.5,
+    "hardness": 3.0,
     "resistance": 10.0,
     "hasGravity": false,
     "creativeTab": {
@@ -31,7 +31,7 @@
     "destroyTool": "Not specified",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": "CUSTOM:Denemebiotoprak"
+      "value": ""
     },
     "dropAmount": 1,
     "isBeaconBase": false,
@@ -40,7 +40,7 @@
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "GRASS"
+      "value": "WOOD"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -56,7 +56,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "WET_GRASS"
+      "value": "WOOD"
     },
     "luminance": 0.0,
     "unbreakable": false,

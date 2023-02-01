@@ -1,0 +1,24 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "watermeyvesi",
+    "customModelName": "Normal",
+    "name": "Water meyve",
+    "creativeTab": {
+      "value": "CUSTOM:Modesyalari"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 5,
+    "saturation": 1.0,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "WatermeyveFoodEaten"
+    }
+  }
+}
