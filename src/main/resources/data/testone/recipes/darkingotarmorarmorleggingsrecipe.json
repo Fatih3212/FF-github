@@ -1,0 +1,36 @@
+{
+  "group": "testone",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "testone:darkingot"
+    },
+    "1": {
+      "item": "testone:darkingot"
+    },
+    "2": {
+      "item": "testone:darkingot"
+    },
+    "3": {
+      "item": "testone:darkingot"
+    },
+    "5": {
+      "item": "testone:darkingot"
+    },
+    "6": {
+      "item": "testone:darkingot"
+    },
+    "8": {
+      "item": "testone:darkingot"
+    }
+  },
+  "result": {
+    "item": "testone:darkingotarmorarmorlegs",
+    "count": 1
+  }
+}

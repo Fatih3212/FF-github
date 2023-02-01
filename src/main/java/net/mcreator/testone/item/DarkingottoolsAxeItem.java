@@ -1,12 +1,20 @@
 
 package net.mcreator.testone.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.Item;
+import net.minecraft.item.IItemTier;
+import net.minecraft.item.AxeItem;
+
+import net.mcreator.testone.TestoneElements;
+
 @TestoneElements.ModElement.Tag
 public class DarkingottoolsAxeItem extends TestoneElements.ModElement {
-
 	@ObjectHolder("testone:darkingottoolsaxe")
 	public static final Item block = null;
-
 	public DarkingottoolsAxeItem(TestoneElements instance) {
 		super(instance, 47);
 	}
@@ -38,8 +46,6 @@ public class DarkingottoolsAxeItem extends TestoneElements.ModElement {
 				return Ingredient.EMPTY;
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS)) {
-
 		}.setRegistryName("darkingottoolsaxe"));
 	}
-
 }

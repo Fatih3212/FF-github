@@ -1,12 +1,19 @@
 
 package net.mcreator.testone.item;
 
+import net.minecraftforge.registries.ObjectHolder;
+
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Item;
+import net.minecraft.block.BlockState;
+
+import net.mcreator.testone.itemgroup.ModesyalariItemGroup;
+import net.mcreator.testone.TestoneElements;
+
 @TestoneElements.ModElement.Tag
 public class DarkingotItem extends TestoneElements.ModElement {
-
 	@ObjectHolder("testone:darkingot")
 	public static final Item block = null;
-
 	public DarkingotItem(TestoneElements instance) {
 		super(instance, 45);
 	}
@@ -15,9 +22,7 @@ public class DarkingotItem extends TestoneElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ItemCustom());
 	}
-
 	public static class ItemCustom extends Item {
-
 		public ItemCustom() {
 			super(new Item.Properties().group(ModesyalariItemGroup.tab).maxStackSize(64));
 			setRegistryName("darkingot");
@@ -37,7 +42,5 @@ public class DarkingotItem extends TestoneElements.ModElement {
 		public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
 			return 1F;
 		}
-
 	}
-
 }
