@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "testone:block/portalbasamak"
+    },
+    "type=top": {
+      "model": "testone:block/portalbasamak_top"
+    },
+    "type=double": {
+      "model": "testone:block/portalbasamak_full"
+    }
+  }
+}

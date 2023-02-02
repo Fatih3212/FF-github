@@ -1,0 +1,22 @@
+{
+  "group": "testone",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "testone:biotahta"
+    },
+    "1": {
+      "item": "testone:biotahta"
+    },
+    "2": {
+      "item": "testone:biotahta"
+    }
+  },
+  "result": {
+    "item": "testone:portalbasamak",
+    "count": 6
+  }
+}

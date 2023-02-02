@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "testone:blocks/io",
+    "top": "testone:blocks/io",
+    "side": "testone:blocks/io"
+  }
+}

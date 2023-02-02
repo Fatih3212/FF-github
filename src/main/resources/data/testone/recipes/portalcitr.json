@@ -1,0 +1,32 @@
+{
+  "group": "testone",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "testone:biotahta"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "testone:biotahta"
+    },
+    "3": {
+      "item": "testone:biotahta"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "testone:biotahta"
+    }
+  },
+  "result": {
+    "item": "testone:portalcit",
+    "count": 3
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "parent": "block/stairs",
+  "parent": "block/slab_top",
   "textures": {
     "bottom": "testone:blocks/portaltahta",
     "top": "testone:blocks/portaltahta",

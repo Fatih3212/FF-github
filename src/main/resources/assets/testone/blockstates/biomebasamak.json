@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "testone:block/biomebasamak"
+    },
+    "type=top": {
+      "model": "testone:block/biomebasamak_top"
+    },
+    "type=double": {
+      "model": "testone:block/biomebasamak_full"
+    }
+  }
+}

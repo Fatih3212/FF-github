@@ -1,0 +1,22 @@
+{
+  "group": "testone",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "testone:thebiomeplanks"
+    },
+    "1": {
+      "item": "testone:thebiomeplanks"
+    },
+    "2": {
+      "item": "testone:thebiomeplanks"
+    }
+  },
+  "result": {
+    "item": "testone:unknown_element",
+    "count": 6
+  }
+}

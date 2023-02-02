@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "testone:block/spongebasamak"
+    },
+    "type=top": {
+      "model": "testone:block/spongebasamak_top"
+    },
+    "type=double": {
+      "model": "testone:block/spongebasamak_full"
+    }
+  }
+}

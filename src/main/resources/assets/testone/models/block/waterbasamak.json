@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "testone:blocks/watertahta",
+    "top": "testone:blocks/watertahta",
+    "side": "testone:blocks/watertahta"
+  }
+}

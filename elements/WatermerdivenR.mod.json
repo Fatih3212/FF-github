@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Watertahta"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Watertahta"
+      },
+      {
+        "value": "CUSTOM:Watertahta"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Watertahta"
+      },
+      {
+        "value": "CUSTOM:Watertahta"
+      },
+      {
+        "value": "CUSTOM:Watertahta"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Watermerdiven"
+    },
+    "name": "watermerdivenr",
+    "namespace": "mod"
+  }
+}
