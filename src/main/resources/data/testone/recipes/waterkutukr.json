@@ -3,11 +3,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "testone:unknown_element"
+      "item": "testone:wateragac"
     }
   ],
   "result": {
-    "item": "testone:unknown_element",
+    "item": "testone:watertahta",
     "count": 4
   }
 }
