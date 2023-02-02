@@ -80,7 +80,11 @@
     "spawnWorldTypes": [
       "CUSTOM:TheBetweenWorld"
     ],
-    "restrictionBiomes": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:TheBiome"
+      }
+    ],
     "blocksToReplace": [],
     "frequencyPerChunks": 20,
     "frequencyOnChunk": 8,

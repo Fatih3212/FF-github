@@ -4,8 +4,8 @@
   "definition": {
     "mobName": "Ghast Boss RED",
     "mobLabel": "RED HELL",
-    "mobModelTexture": "hast_texture.png",
-    "mobModelName": "Ghast",
+    "mobModelTexture": "ghast.png",
+    "mobModelName": "Modelcustom_model",
     "modelWidth": 4.0,
     "modelHeight": 4.0,
     "modelShadowSize": 4.0,
