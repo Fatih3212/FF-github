@@ -71,7 +71,7 @@ public class GhastbossStructure extends TestoneElements.ModElement {
 		};
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
 			boolean biomeCriteria = false;
-			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("testone:portalbiome")))
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("testone:thebiome")))
 				biomeCriteria = true;
 			if (!biomeCriteria)
 				continue;
