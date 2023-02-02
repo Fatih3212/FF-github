@@ -4,11 +4,11 @@
   "definition": {
     "mobName": "Ghast Boss RED",
     "mobLabel": "RED HELL",
-    "mobModelTexture": "oss1.png",
+    "mobModelTexture": "hast_texture.png",
     "mobModelName": "Ghast",
-    "modelWidth": 1.0,
-    "modelHeight": 1.0,
-    "modelShadowSize": 0.5,
+    "modelWidth": 4.0,
+    "modelHeight": 4.0,
+    "modelShadowSize": 4.0,
     "armorBaseValue": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
@@ -16,7 +16,7 @@
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -1,
+      "value": -16777216,
       "falpha": 0.0
     },
     "creativeTab": {
