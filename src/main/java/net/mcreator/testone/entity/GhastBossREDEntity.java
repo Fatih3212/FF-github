@@ -84,6 +84,11 @@ public class GhastBossREDEntity extends TestoneElements.ModElement {
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
+			boolean biomeCriteria = false;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("the_void")))
+				biomeCriteria = true;
+			if (!biomeCriteria)
+				continue;
 			biome.getSpawns(EntityClassification.MONSTER).add(new Biome.SpawnListEntry(entity, 20, 1, 1));
 		}
 		EntitySpawnPlacementRegistry.register(entity, EntitySpawnPlacementRegistry.PlacementType.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
@@ -259,34 +264,34 @@ public class GhastBossREDEntity extends TestoneElements.ModElement {
 		private final RendererModel tentacle9;
 		public Modelcustom_model() {
 			textureWidth = 64;
-			textureHeight = 32;
+			textureHeight = 64;
 			body = new RendererModel(this);
 			body.setRotationPoint(0.0F, 4.0F, 0.0F);
 			body.cubeList.add(new ModelBox(body, 0, 0, -8.0F, -8.0F, -8.0F, 16, 16, 16, 0.0F, false));
 			tentacle1 = new RendererModel(this);
 			tentacle1.setRotationPoint(-3.7F, 11.0F, -5.0F);
-			tentacle1.cubeList.add(new ModelBox(tentacle1, 0, 0, -1.0F, 0.0F, -1.0F, 2, 8, 2, 0.0F, false));
+			tentacle1.cubeList.add(new ModelBox(tentacle1, 24, 32, -1.0F, 0.0F, -1.0F, 2, 8, 2, 0.0F, false));
 			tentacle2 = new RendererModel(this);
 			tentacle2.setRotationPoint(1.3F, 11.0F, -5.0F);
-			tentacle2.cubeList.add(new ModelBox(tentacle2, 0, 0, 4.0F, 0.0F, -1.0F, 2, 9, 2, 0.0F, false));
+			tentacle2.cubeList.add(new ModelBox(tentacle2, 16, 32, 4.0F, 0.0F, -1.0F, 2, 9, 2, 0.0F, false));
 			tentacle3 = new RendererModel(this);
 			tentacle3.setRotationPoint(6.3F, 11.0F, -5.0F);
 			tentacle3.cubeList.add(new ModelBox(tentacle3, 0, 0, -6.0F, 0.0F, -1.0F, 2, 13, 2, 0.0F, false));
 			tentacle4 = new RendererModel(this);
 			tentacle4.setRotationPoint(-6.3F, 11.0F, 0.0F);
-			tentacle4.cubeList.add(new ModelBox(tentacle4, 0, 0, -1.0F, 0.0F, -1.0F, 2, 11, 2, 0.0F, false));
+			tentacle4.cubeList.add(new ModelBox(tentacle4, 0, 32, -1.0F, 0.0F, -1.0F, 2, 11, 2, 0.0F, false));
 			tentacle5 = new RendererModel(this);
 			tentacle5.setRotationPoint(-1.3F, 11.0F, 0.0F);
-			tentacle5.cubeList.add(new ModelBox(tentacle5, 0, 0, -1.0F, 0.0F, -1.0F, 2, 11, 2, 0.0F, false));
+			tentacle5.cubeList.add(new ModelBox(tentacle5, 0, 32, -1.0F, 0.0F, -1.0F, 2, 11, 2, 0.0F, false));
 			tentacle6 = new RendererModel(this);
 			tentacle6.setRotationPoint(3.7F, 11.0F, 0.0F);
-			tentacle6.cubeList.add(new ModelBox(tentacle6, 0, 0, -1.0F, 0.0F, -1.0F, 2, 10, 2, 0.0F, false));
+			tentacle6.cubeList.add(new ModelBox(tentacle6, 8, 32, -1.0F, 0.0F, -1.0F, 2, 10, 2, 0.0F, false));
 			tentacle7 = new RendererModel(this);
 			tentacle7.setRotationPoint(-3.7F, 11.0F, 5.0F);
-			tentacle7.cubeList.add(new ModelBox(tentacle7, 0, 0, -1.0F, 0.0F, -1.0F, 2, 12, 2, 0.0F, false));
+			tentacle7.cubeList.add(new ModelBox(tentacle7, 8, 0, -1.0F, 0.0F, -1.0F, 2, 12, 2, 0.0F, false));
 			tentacle8 = new RendererModel(this);
 			tentacle8.setRotationPoint(1.3F, 11.0F, 5.0F);
-			tentacle8.cubeList.add(new ModelBox(tentacle8, 0, 0, 4.0F, 0.0F, -1.0F, 2, 12, 2, 0.0F, false));
+			tentacle8.cubeList.add(new ModelBox(tentacle8, 8, 0, 4.0F, 0.0F, -1.0F, 2, 12, 2, 0.0F, false));
 			tentacle9 = new RendererModel(this);
 			tentacle9.setRotationPoint(6.3F, 11.0F, 5.0F);
 			tentacle9.cubeList.add(new ModelBox(tentacle9, 0, 0, -6.0F, 0.0F, -1.0F, 2, 9, 2, 0.0F, false));
