@@ -69,11 +69,11 @@ public class GhastBossREDEntity extends TestoneElements.ModElement {
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(1f, 1f))
+				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(4f, 4f))
 						.build("ghastbossred").setRegistryName("ghastbossred");
 		elements.entities.add(() -> entity);
-		elements.items.add(
-				() -> new SpawnEggItem(entity, -65536, -1, new Item.Properties().group(ModesyalariItemGroup.tab)).setRegistryName("ghastbossred"));
+		elements.items.add(() -> new SpawnEggItem(entity, -65536, -16777216, new Item.Properties().group(ModesyalariItemGroup.tab))
+				.setRegistryName("ghastbossred"));
 		elements.entities.add(() -> (EntityType.Builder.<ArrowCustomEntity>create(ArrowCustomEntity::new, EntityClassification.MISC)
 				.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
 				.size(0.5f, 0.5f)).build("entitybulletghastbossred").setRegistryName("entitybulletghastbossred"));
@@ -93,9 +93,9 @@ public class GhastBossREDEntity extends TestoneElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
 		RenderingRegistry.registerEntityRenderingHandler(CustomEntity.class, renderManager -> {
-			return new MobRenderer(renderManager, new GhastModel(), 0.5f) {
+			return new MobRenderer(renderManager, new GhastModel(), 4f) {
 				protected ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("testone:textures/oss1.png");
+					return new ResourceLocation("testone:textures/hast_texture.png");
 				}
 			};
 		});
