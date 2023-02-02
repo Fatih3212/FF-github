@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "testone:blocks/wateryapragi",
+    "up": "testone:blocks/wateryapragi",
+    "north": "testone:blocks/wateryapragi",
+    "east": "testone:blocks/wateryapragi",
+    "south": "testone:blocks/wateryapragi",
+    "west": "testone:blocks/wateryapragi",
+    "particle": "testone:blocks/wateryapragi"
+  }
+}

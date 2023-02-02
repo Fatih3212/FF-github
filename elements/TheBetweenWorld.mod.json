@@ -28,6 +28,9 @@
       },
       {
         "value": "CUSTOM:TheBiome"
+      },
+      {
+        "value": "CUSTOM:Waterbiome"
       }
     ],
     "worldGenType": "Normal world gen",

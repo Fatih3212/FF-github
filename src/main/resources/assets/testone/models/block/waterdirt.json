@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "testone:blocks/waterdirt",
+    "up": "testone:blocks/waterdirt",
+    "north": "testone:blocks/waterdirt",
+    "east": "testone:blocks/waterdirt",
+    "south": "testone:blocks/waterdirt",
+    "west": "testone:blocks/waterdirt",
+    "particle": "testone:blocks/waterdirt"
+  }
+}

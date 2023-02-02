@@ -1,0 +1,13 @@
+{
+  "group": "testone",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "testone:unknown_element"
+    }
+  ],
+  "result": {
+    "item": "testone:unknown_element",
+    "count": 4
+  }
+}
