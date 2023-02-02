@@ -1,0 +1,33 @@
+{
+  "group": "testone",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "testone:thebiomeplanks"
+    },
+    "3": {
+      "item": "testone:thebiomeplanks"
+    },
+    "4": {
+      "item": "testone:thebiomeplanks"
+    },
+    "6": {
+      "item": "testone:thebiomeplanks"
+    },
+    "7": {
+      "item": "testone:thebiomeplanks"
+    },
+    "8": {
+      "item": "testone:thebiomeplanks"
+    }
+  },
+  "result": {
+    "item": "testone:biomemerdiven",
+    "count": 4
+  }
+}

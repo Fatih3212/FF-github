@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "testone:block/waterbasamak"
+    },
+    "type=top": {
+      "model": "testone:block/waterbasamak_top"
+    },
+    "type=double": {
+      "model": "testone:block/waterbasamak_full"
+    }
+  }
+}

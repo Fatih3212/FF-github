@@ -1,0 +1,33 @@
+{
+  "group": "testone",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "testone:biotahta"
+    },
+    "3": {
+      "item": "testone:biotahta"
+    },
+    "4": {
+      "item": "testone:biotahta"
+    },
+    "6": {
+      "item": "testone:biotahta"
+    },
+    "7": {
+      "item": "testone:biotahta"
+    },
+    "8": {
+      "item": "testone:biotahta"
+    }
+  },
+  "result": {
+    "item": "testone:portalbiomerdiven",
+    "count": 4
+  }
+}

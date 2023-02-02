@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "testone:blocks/portaltahta",
+    "top": "testone:blocks/portaltahta",
+    "side": "testone:blocks/portaltahta"
+  }
+}

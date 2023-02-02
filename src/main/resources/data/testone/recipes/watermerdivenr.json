@@ -1,0 +1,33 @@
+{
+  "group": "testone",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "testone:watertahta"
+    },
+    "3": {
+      "item": "testone:watertahta"
+    },
+    "4": {
+      "item": "testone:watertahta"
+    },
+    "6": {
+      "item": "testone:watertahta"
+    },
+    "7": {
+      "item": "testone:watertahta"
+    },
+    "8": {
+      "item": "testone:watertahta"
+    }
+  },
+  "result": {
+    "item": "testone:watermerdiven",
+    "count": 3
+  }
+}

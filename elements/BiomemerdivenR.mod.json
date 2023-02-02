@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TheBiomePlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TheBiomePlanks"
+      },
+      {
+        "value": "CUSTOM:TheBiomePlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TheBiomePlanks"
+      },
+      {
+        "value": "CUSTOM:TheBiomePlanks"
+      },
+      {
+        "value": "CUSTOM:TheBiomePlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Biomemerdiven"
+    },
+    "name": "biomemerdivenr",
+    "namespace": "mod"
+  }
+}

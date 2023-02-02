@@ -1,0 +1,22 @@
+{
+  "group": "testone",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "testone:spongeplanks"
+    },
+    "1": {
+      "item": "testone:spongeplanks"
+    },
+    "2": {
+      "item": "testone:spongeplanks"
+    }
+  },
+  "result": {
+    "item": "testone:spongebasamak",
+    "count": 6
+  }
+}

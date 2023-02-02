@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "testone:blocks/watertahta",
+    "particle": "testone:blocks/watertahta"
+  }
+}
