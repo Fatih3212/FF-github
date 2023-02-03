@@ -975,6 +975,14 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "TurtleBossBLUE",
+      "type": "mob",
+      "sortid": 98,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -998,6 +1006,7 @@
       "item.testone.thebetweenhoe": "Thebetween Hoe",
       "block.testone.watercit": "Water Çit",
       "block.testone.yenidunyabiocimen": "Sponge Çimen",
+      "item.testone.turtlebossblue": "Turtle Boss BLUE Spawn Egg",
       "item.testone.thebetweenshovel": "Thebetween Shovel",
       "advancements.thebetweendia.descr": "\u0027the between diamond\u0027 elde et",
       "advancements.thebetweendia.title": "T3 Dünya bir arada",
@@ -1008,6 +1017,7 @@
       "block.testone.thebiomeplanks": "The Biome Planks",
       "item.testone.thebetweensword": "Thebetween kýlýç",
       "block.testone.thebiomegrass": "Thebiome Grass",
+      "entity.testone.turtlebossblue": "Turtle Boss BLUE",
       "block.testone.denemebioyaprak": "Portal Biome Yaprak",
       "entity.testone.entity1": "Entity1",
       "biome.testone.yenidunyabio": "Sponge Biome",

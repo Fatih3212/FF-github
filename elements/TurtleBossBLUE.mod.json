@@ -2,28 +2,28 @@
   "_fv": 6,
   "_type": "mob",
   "definition": {
-    "mobName": "Ghast Boss RED",
-    "mobLabel": "RED HELL",
-    "mobModelTexture": "iras.png",
-    "mobModelName": "Modelcustom_model",
-    "modelWidth": 6.0,
-    "modelHeight": 6.0,
-    "modelShadowSize": 6.0,
-    "armorBaseValue": 10.0,
+    "mobName": "Turtle Boss BLUE",
+    "mobLabel": "Blue Hell",
+    "mobModelTexture": "lueossexture.png",
+    "mobModelName": "ModelBlueBossModel",
+    "modelWidth": 2.0,
+    "modelHeight": 2.0,
+    "modelShadowSize": 4.0,
+    "armorBaseValue": 100.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -65536,
+      "value": -16750849,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -16777216,
+      "value": -52,
       "falpha": 0.0
     },
     "creativeTab": {
       "value": "CUSTOM:Modesyalari"
     },
-    "isBoss": false,
-    "bossBarColor": "PINK",
+    "isBoss": true,
+    "bossBarColor": "BLUE",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
       "value": ""
@@ -44,23 +44,23 @@
       "value": ""
     },
     "mobBehaviourType": "Mob",
-    "mobCreatureType": "UNDEFINED",
-    "attackStrength": 50,
-    "movementSpeed": 0.3,
+    "mobCreatureType": "UNDEAD",
+    "attackStrength": 25,
+    "movementSpeed": 0.2,
     "trackingRange": 64,
-    "health": 400,
+    "health": 350,
     "xpAmount": 4800,
-    "waterMob": false,
-    "flyingMob": true,
+    "waterMob": true,
+    "flyingMob": false,
     "disableCollisions": false,
     "ridable": false,
     "canControlForward": false,
     "canControlStrafe": false,
     "immuneToFire": true,
-    "immuneToArrows": false,
-    "immuneToFallDamage": false,
-    "immuneToCactus": false,
-    "immuneToDrowning": false,
+    "immuneToArrows": true,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
     "immuneToLightning": true,
     "immuneToPotions": false,
     "immuneToPlayer": false,
@@ -68,13 +68,13 @@
       "value": ""
     },
     "livingSound": {
-      "value": "entity.ghast.ambient"
+      "value": "block.anvil.break"
     },
     "hurtSound": {
-      "value": "entity.ghast.hurt"
+      "value": "block.anvil.break"
     },
     "deathSound": {
-      "value": "entity.ghast.death"
+      "value": "block.anvil.break"
     },
     "spawnParticles": false,
     "particleToSpawn": {
@@ -86,24 +86,20 @@
     "particleSpawningCondition": "ALWAYS",
     "hasAI": true,
     "aiBase": "(none)",
-    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"><next><block type=\"leap_at_target\"><field name=\"speed\">0.8</field><next><block type=\"panic_when_attacked\"><field name=\"speed\">1.2</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"look_around\"><next><block type=\"swim_in_water\"><next><block type=\"leap_at_target\"><field name=\"speed\">0.8</field><next><block type=\"panic_when_attacked\"><field name=\"speed\">1.2</field><next><block type=\"attack_action\"><field name=\"callhelp\">TRUE</field></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
     "breedable": false,
     "breedTriggerItems": [],
-    "ranged": true,
+    "ranged": false,
     "rangedAttackItem": {
-      "value": "Items.FIRE_CHARGE"
+      "value": ""
     },
-    "spawnThisMob": true,
+    "spawnThisMob": false,
     "doesDespawnWhenIdle": true,
     "spawningProbability": 20,
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,
-    "maxNumberOfMobsPerGroup": 1,
-    "restrictionBiomes": [
-      {
-        "value": "void"
-      }
-    ],
+    "maxNumberOfMobsPerGroup": 2,
+    "restrictionBiomes": [],
     "spawnInDungeons": true
   }
 }
