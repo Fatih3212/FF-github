@@ -22,11 +22,8 @@ import net.minecraft.item.Item;
 import net.minecraft.entity.projectile.ArrowEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
-import net.minecraft.entity.ai.goal.SwimGoal;
-import net.minecraft.entity.ai.goal.RandomWalkingGoal;
-import net.minecraft.entity.ai.goal.PanicGoal;
+import net.minecraft.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.entity.ai.goal.LookRandomlyGoal;
-import net.minecraft.entity.ai.goal.LeapAtTargetGoal;
 import net.minecraft.entity.ai.goal.HurtByTargetGoal;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.EntityType;
@@ -52,10 +49,10 @@ public class TurtleBossBLUEEntity extends TestoneElements.ModElement {
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.4f, 0.3f))
+				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(2f, 2f))
 						.build("turtlebossblue").setRegistryName("turtlebossblue");
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -16750849, -52, new Item.Properties().group(ModesyalariItemGroup.tab))
+		elements.items.add(() -> new SpawnEggItem(entity, -13421569, -52, new Item.Properties().group(ModesyalariItemGroup.tab))
 				.setRegistryName("turtlebossblue"));
 	}
 
@@ -63,7 +60,7 @@ public class TurtleBossBLUEEntity extends TestoneElements.ModElement {
 	@OnlyIn(Dist.CLIENT)
 	public void registerModels(ModelRegistryEvent event) {
 		RenderingRegistry.registerEntityRenderingHandler(CustomEntity.class, renderManager -> {
-			return new MobRenderer(renderManager, new ModelBlueBossModel(), 4f) {
+			return new MobRenderer(renderManager, new ModelBlueBossModel(), 2f) {
 				protected ResourceLocation getEntityTexture(Entity entity) {
 					return new ResourceLocation("testone:textures/lueossexture.png");
 				}
@@ -86,17 +83,14 @@ public class TurtleBossBLUEEntity extends TestoneElements.ModElement {
 		@Override
 		protected void registerGoals() {
 			super.registerGoals();
-			this.goalSelector.addGoal(1, new RandomWalkingGoal(this, 1));
-			this.goalSelector.addGoal(2, new LookRandomlyGoal(this));
-			this.goalSelector.addGoal(3, new SwimGoal(this));
-			this.goalSelector.addGoal(4, new LeapAtTargetGoal(this, (float) 0.8));
-			this.goalSelector.addGoal(5, new PanicGoal(this, 1.2));
-			this.targetSelector.addGoal(6, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));
+			this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, true));
+			this.targetSelector.addGoal(2, new HurtByTargetGoal(this).setCallsForHelp(this.getClass()));
+			this.goalSelector.addGoal(3, new LookRandomlyGoal(this));
 		}
 
 		@Override
 		public CreatureAttribute getCreatureAttribute() {
-			return CreatureAttribute.UNDEAD;
+			return CreatureAttribute.UNDEFINED;
 		}
 
 		protected void dropSpecialItems(DamageSource source, int looting, boolean recentlyHitIn) {
@@ -148,7 +142,7 @@ public class TurtleBossBLUEEntity extends TestoneElements.ModElement {
 			if (this.getAttribute(SharedMonsterAttributes.MAX_HEALTH) != null)
 				this.getAttribute(SharedMonsterAttributes.MAX_HEALTH).setBaseValue(350);
 			if (this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE) != null)
-				this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(25);
+				this.getAttribute(SharedMonsterAttributes.ATTACK_DAMAGE).setBaseValue(12);
 		}
 
 		@Override

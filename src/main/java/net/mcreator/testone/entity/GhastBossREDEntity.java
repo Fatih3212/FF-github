@@ -17,6 +17,8 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.gen.Heightmap;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.World;
+import net.minecraft.world.ServerBossInfo;
+import net.minecraft.world.BossInfo;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.BlockPos;
@@ -29,6 +31,7 @@ import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.entity.projectile.AbstractArrowEntity;
+import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.monster.MonsterEntity;
 import net.minecraft.entity.ai.goal.SwimGoal;
 import net.minecraft.entity.ai.goal.RangedAttackGoal;
@@ -74,7 +77,7 @@ public class GhastBossREDEntity extends TestoneElements.ModElement {
 				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(6f, 6f))
 						.build("ghastbossred").setRegistryName("ghastbossred");
 		elements.entities.add(() -> entity);
-		elements.items.add(() -> new SpawnEggItem(entity, -65536, -16777216, new Item.Properties().group(ModesyalariItemGroup.tab))
+		elements.items.add(() -> new SpawnEggItem(entity, -3407872, -16777216, new Item.Properties().group(ModesyalariItemGroup.tab))
 				.setRegistryName("ghastbossred"));
 		elements.entities.add(() -> (EntityType.Builder.<ArrowCustomEntity>create(ArrowCustomEntity::new, EntityClassification.MISC)
 				.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
@@ -102,7 +105,7 @@ public class GhastBossREDEntity extends TestoneElements.ModElement {
 		RenderingRegistry.registerEntityRenderingHandler(CustomEntity.class, renderManager -> {
 			return new MobRenderer(renderManager, new Modelcustom_model(), 6f) {
 				protected ResourceLocation getEntityTexture(Entity entity) {
-					return new ResourceLocation("testone:textures/iras.png");
+					return new ResourceLocation("testone:textures/host_texture.png");
 				}
 			};
 		});
@@ -199,6 +202,29 @@ public class GhastBossREDEntity extends TestoneElements.ModElement {
 			double d3 = target.posZ - this.posZ;
 			entityarrow.shoot(d1, d0 - entityarrow.posY + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1.6F, 12.0F);
 			world.addEntity(entityarrow);
+		}
+
+		@Override
+		public boolean isNonBoss() {
+			return false;
+		}
+		private final ServerBossInfo bossInfo = new ServerBossInfo(this.getDisplayName(), BossInfo.Color.RED, BossInfo.Overlay.PROGRESS);
+		@Override
+		public void addTrackingPlayer(ServerPlayerEntity player) {
+			super.addTrackingPlayer(player);
+			this.bossInfo.addPlayer(player);
+		}
+
+		@Override
+		public void removeTrackingPlayer(ServerPlayerEntity player) {
+			super.removeTrackingPlayer(player);
+			this.bossInfo.removePlayer(player);
+		}
+
+		@Override
+		public void updateAITasks() {
+			super.updateAITasks();
+			this.bossInfo.setPercent(this.getHealth() / this.getMaxHealth());
 		}
 
 		@Override
