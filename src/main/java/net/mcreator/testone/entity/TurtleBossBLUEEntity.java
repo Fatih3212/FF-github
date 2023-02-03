@@ -52,7 +52,7 @@ public class TurtleBossBLUEEntity extends TestoneElements.ModElement {
 	@Override
 	public void initElements() {
 		entity = (EntityType.Builder.<CustomEntity>create(CustomEntity::new, EntityClassification.MONSTER).setShouldReceiveVelocityUpdates(true)
-				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(2f, 2f))
+				.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CustomEntity::new).immuneToFire().size(0.4f, 0.3f))
 						.build("turtlebossblue").setRegistryName("turtlebossblue");
 		elements.entities.add(() -> entity);
 		elements.items.add(() -> new SpawnEggItem(entity, -16750849, -52, new Item.Properties().group(ModesyalariItemGroup.tab))
@@ -191,25 +191,26 @@ public class TurtleBossBLUEEntity extends TestoneElements.ModElement {
 	}
 
 	public static class ModelBlueBossModel extends EntityModel {
-		private final RendererModel bb_main;
-	public BlueBossModels() {
-		textureWidth = 256;
-		textureHeight = 256;
-		bb_main = new RendererModel(this);
-		bb_main.setRotationPoint(0.0F, 24.0F, 0.0F);
-		bb_main.cubeList.add(new ModelBox(bb_main, 0, 68, -14.0F, 0.0F, -10.0F, 28, 4, 20, 0.0F, false));
-		bb_main.cubeList.add(new ModelBox(bb_main, 0, 40, -16.0F, -4.0F, -12.0F, 32, 4, 24, 0.0F, false));
-		bb_main.cubeList.add(new ModelBox(bb_main, 80, 86, 8.0F, -4.0F, 12.0F, 5, 2, 16, 0.0F, false));
-		bb_main.cubeList.add(new ModelBox(bb_main, 0, 0, -18.0F, -12.0F, -16.0F, 36, 8, 32, 0.0F, false));
-		bb_main.cubeList.add(new ModelBox(bb_main, 88, 40, 16.0F, -9.0F, -4.0F, 10, 8, 8, 0.0F, false));
-		bb_main.cubeList.add(new ModelBox(bb_main, 0, 92, -32.0F, -2.0F, -10.0F, 16, 2, 4, 0.0F, false));
-		bb_main.cubeList.add(new ModelBox(bb_main, 88, 56, -32.0F, -2.0F, 6.0F, 16, 2, 4, 0.0F, false));
-		bb_main.cubeList.add(new ModelBox(bb_main, 76, 68, 8.0F, -4.0F, -28.0F, 5, 2, 16, 0.0F, false));
-	}
+		private final RendererModel bone;
+		public ModelBlueBossModel() {
+			textureWidth = 256;
+			textureHeight = 256;
+			bone = new RendererModel(this);
+			bone.setRotationPoint(0.0F, 24.0F, 0.0F);
+			setRotationAngle(bone, 0.0F, 1.5708F, 0.0F);
+			bone.cubeList.add(new ModelBox(bone, 88, 40, 16.0F, -9.0F, -4.0F, 10, 8, 8, 0.0F, false));
+			bone.cubeList.add(new ModelBox(bone, 0, 0, -18.0F, -12.0F, -16.0F, 36, 8, 32, 0.0F, false));
+			bone.cubeList.add(new ModelBox(bone, 88, 56, -32.0F, -2.0F, 6.0F, 16, 2, 4, 0.0F, false));
+			bone.cubeList.add(new ModelBox(bone, 0, 92, -32.0F, -2.0F, -10.0F, 16, 2, 4, 0.0F, false));
+			bone.cubeList.add(new ModelBox(bone, 76, 68, 8.0F, -4.0F, -28.0F, 5, 2, 16, 0.0F, false));
+			bone.cubeList.add(new ModelBox(bone, 80, 86, 8.0F, -4.0F, 12.0F, 5, 2, 16, 0.0F, false));
+			bone.cubeList.add(new ModelBox(bone, 0, 40, -16.0F, -4.0F, -12.0F, 32, 4, 24, 0.0F, false));
+			bone.cubeList.add(new ModelBox(bone, 0, 68, -14.0F, 0.0F, -10.0F, 28, 4, 20, 0.0F, false));
+		}
 
 		@Override
 		public void render(Entity entity, float f, float f1, float f2, float f3, float f4, float f5) {
-			bb_main.render(f5);
+			bone.render(f5);
 		}
 
 		public void setRotationAngle(RendererModel modelRenderer, float x, float y, float z) {

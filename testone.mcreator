@@ -980,7 +980,7 @@
       "name": "TurtleBossBLUE",
       "type": "mob",
       "sortid": 98,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {}
     }
