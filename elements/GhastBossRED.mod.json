@@ -4,15 +4,15 @@
   "definition": {
     "mobName": "Ghast Boss RED",
     "mobLabel": "RED HELL",
-    "mobModelTexture": "host_texture.png",
+    "mobModelTexture": "ghast.png",
     "mobModelName": "Modelcustom_model",
-    "modelWidth": 6.0,
-    "modelHeight": 6.0,
-    "modelShadowSize": 6.0,
-    "armorBaseValue": 10.0,
+    "modelWidth": 4.0,
+    "modelHeight": 4.0,
+    "modelShadowSize": 4.0,
+    "armorBaseValue": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -3407872,
+      "value": -65536,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
@@ -22,8 +22,8 @@
     "creativeTab": {
       "value": "CUSTOM:Modesyalari"
     },
-    "isBoss": true,
-    "bossBarColor": "RED",
+    "isBoss": false,
+    "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
       "value": ""
@@ -99,11 +99,7 @@
     "mobSpawningType": "monster",
     "minNumberOfMobsPerGroup": 1,
     "maxNumberOfMobsPerGroup": 1,
-    "restrictionBiomes": [
-      {
-        "value": "void"
-      }
-    ],
+    "restrictionBiomes": [],
     "spawnInDungeons": true
   }
 }

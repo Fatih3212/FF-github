@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "testone:blocks/portaltahta",
-    "up": "testone:blocks/portaltahta",
-    "north": "testone:blocks/portaltahta",
-    "east": "testone:blocks/portaltahta",
-    "south": "testone:blocks/portaltahta",
-    "west": "testone:blocks/portaltahta",
-    "particle": "testone:blocks/portaltahta"
+    "down": "testone:blocks/bioplanks",
+    "up": "testone:blocks/bioplanks",
+    "north": "testone:blocks/bioplanks",
+    "east": "testone:blocks/bioplanks",
+    "south": "testone:blocks/bioplanks",
+    "west": "testone:blocks/bioplanks",
+    "particle": "testone:blocks/bioplanks"
   }
 }

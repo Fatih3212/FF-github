@@ -3,10 +3,10 @@
   "textures": {
     "down": "testone:blocks/denemebiotoprak2",
     "up": "testone:blocks/denemebiocimenust",
-    "north": "testone:blocks/denemebiotoprak2",
-    "east": "testone:blocks/denemebiotoprak2",
-    "south": "testone:blocks/denemebiotoprak2",
-    "west": "testone:blocks/denemebiotoprak2",
+    "north": "testone:blocks/denemebiocimen",
+    "east": "testone:blocks/denemebiocimen",
+    "south": "testone:blocks/denemebiocimen",
+    "west": "testone:blocks/denemebiocimen",
     "particle": "testone:blocks/denemebiotoprak2"
   }
 }

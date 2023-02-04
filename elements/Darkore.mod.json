@@ -5,7 +5,7 @@
     "texture": "dark_ore",
     "textureTop": "dark_ore",
     "textureLeft": "dark_ore",
-    "textureFront": "darkblock",
+    "textureFront": "dark_ore",
     "textureRight": "dark_ore",
     "textureBack": "dark_ore",
     "renderType": 10,
